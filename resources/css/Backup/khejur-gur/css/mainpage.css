@@ -1,0 +1,157 @@
+body {
+    font-family: 'Noto Sans Bengali', sans-serif;
+  }
+
+  .middle{
+    background-color: #52A423;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    }
+    .middle h2{
+        font-weight: bold;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+.top
+{
+    background-color: #52A423;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;  
+    
+    clip-path: ellipse(70% 110% at center -10%);
+}
+
+.order-button{
+background-color: #ff5c1b;
+color : white;
+font-weight: bold;
+border: none;
+padding: 15px 25px;
+border-radius: 10px;
+margin-top: 25px;
+}
+
+.product-image{
+    
+    width: 60%;              
+    margin: 20px auto;        
+    border: 3px solid #52A423;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.top img {
+    width: 100px;
+    height: auto; 
+    
+  }
+  .product-image img {
+    width: 100%;         
+    display: block;      
+    margin: 0;
+    padding: 0;  }
+
+.cta-btn{
+background-color: #ff5c1b;
+color : white;
+font-weight: bold;
+border: none;
+padding: 10px 150px;
+border-radius: 6px;
+margin-top: 25px;
+    }
+
+    .cta-btn1{
+        background-color: #ff5c1b;
+color : white;
+font-weight: bold;
+border: none;
+padding: 10px 150px;
+border-radius: 6px;
+margin-top: 25px;
+    }
+
+    .checklist{
+        color: black;
+    }
+    .bi{
+        color:#52A423;
+    }
+    .bi1{
+        color:white;
+    }
+    .middle .divider {
+        width: 100px;
+        height: 3px;
+        background-color: white;
+        margin: 10px auto 30px;
+      }
+      .middle .cta-btn2{
+        background-color: #ff5a1f;
+        color: white;
+        padding: 10px 200px;
+        border: none;
+        border-radius: 6px;
+        font-size: 1.2rem;
+      }
+      .align-items-center{
+        font-weight: bold;
+      }
+      .justify-content-center{
+        font-weight: bold;
+      }
+      .middle .divider1{
+        width: 600px;
+        height: 1px;
+        background-color: white;
+        margin: 10px auto 10px;
+      }
+      .last .cta-bt3{
+        background-color: #ff5a1f;
+        color: white;
+        padding: 10px 200px;
+        border: none;
+        border-radius: 6px;
+        font-size: 1.2rem;
+      }
+      .last{
+        background-color: #52A423;
+        color: white;
+        text-align: center;
+        padding: 70px 60px;
+        }
+        .last h2{
+            font-weight: bold;
+          text-align: center;
+          margin-bottom: 30px;
+        }
+
+        .price-card {
+            border: 2px solid orange;
+            border-radius: 8px;
+            background-color: #ffffff;
+            transition: all 0.3s ease;
+          }
+          .price-card h4 {
+            color: #4CAF50; 
+            font-weight: bold;
+          }
+          .price-card .highlight {
+            color: #FF5722; 
+            font-size: 24px;
+            font-weight: bold;
+          }
+          .price-card .small-text {
+            color: red;
+            font-size: 14px;
+            margin-top: 10px;
+          }
+          
+          
+          

@@ -1,0 +1,353 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.top1{
+  background-color: #f2e1b9;
+}
+
+.highlight1-blackbox {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 2.3rem;
+  border-radius: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.first {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 40px;
+}
+.second {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.brand-logo {
+  width: 130px;
+  height: auto;
+  padding-top: 30px;
+}
+
+.order-btn {
+  background-color: #f0c23a;
+  color: white;
+  font-weight: bold;
+  padding: 20px 25px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 1rem;
+}
+
+.order-btn:hover {
+  background-color: #e0b020;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.product-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.highlight1-yellowbox {
+  background-color: #f0c23a;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.custom-accordion .accordion-button {
+  background-color: white;
+  color: #d89d00;
+  font-weight: bold;
+  font-size: 1.05rem;
+  border: none;
+  box-shadow: none;
+}
+
+.custom-accordion .accordion-button::after {
+  content: "+";
+  font-size: 1.2rem;
+  color: #d89d00;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.custom-accordion .accordion-button:not(.collapsed)::after {
+  content: "−";
+  transform: rotate(180deg);
+}
+
+.custom-accordion .accordion-body {
+  background-color: #fcfcfc;
+  color: #333;
+  font-size: 1rem;
+}
+
+.list {
+  background-color: #e6a500;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.feature-list {
+  padding: 30px 20px;
+  background-color: #f2e1b9;
+  max-width: 600px; /* Adjust this as needed */
+  margin: 0 auto;
+  border-radius: 10px; /* Optional for nicer look */
+}
+
+.feature-item {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+.check-icon {
+  color: black;
+  margin-right: 10px;
+}
+.highlight1 {
+  font-weight: bold;
+}
+.btn-custom {
+  background-color: #f1c40f;
+  border: none;
+  font-weight: bold;
+  color: #333;
+}
+.btn-custom {
+  background-color: #f0c23a;
+  color: white;
+  font-weight: bold;
+  padding: 20px 25px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 1rem;
+}
+.highlight1-yellowbox2 {
+  background-color: #f0c23a;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #f2e1b9;
+  font-size: 2rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+.highlight1-yellowbox3 {
+  background-color: #f0c23a;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+.highlight1-whitebox {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(245, 185, 66, 0.7), 0 0 20px rgba(245, 185, 66, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+.highlight1-yellowbox4 {
+  background-color: #f0c23a;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-section {
+  background-color: #daaa36;
+  padding: 40px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.contact-btn {
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px 10px;
+  text-decoration: none;
+}
+
+.btn-phone {
+  background-color: black;
+}
+
+.btn-whatsapp {
+  background-color: #25d366;
+}
+
+.btn-messenger {
+  background-color: #0084ff;
+}
+
+.contact-btn i {
+  font-size: 18px;
+}
+.custom-accordion {
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto; /* This centers it */
+}
+.table-size-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0; /* spacing above and below */
+}
+
+.table-size {
+  background-color: #f2e1b9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+table-wrapper-2 {
+  border-collapse: collapse;
+  width: 100%; /* Keep this so table fills its container */
+  font-size: 2rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+/* Optional: Limit max width */
+.table-size {
+  max-width: 800px; /* Adjust as needed */
+  width: 100%;
+}
+
+/* Responsive Design Enhancements */
+@media (max-width: 768px) {
+  .highlight1-blackbox {
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+
+  .first {
+    font-size: 1.2rem;
+    padding: 20px;
+  }
+
+  .second {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+
+  .order-btn,
+  .btn-custom {
+    padding: 15px 20px;
+    font-size: 0.95rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .brand-logo {
+    width: 100px;
+    padding-top: 20px;
+  }
+
+  .list {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+
+  .feature-item {
+    font-size: 1rem;
+  }
+
+  .highlight1-yellowbox,
+  .highlight1-yellowbox2,
+  .highlight1-yellowbox3,
+  .highlight1-yellowbox4 {
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+
+  .highlight1-whitebox {
+    font-size: 1rem;
+    padding: 15px;
+  }
+
+  table {
+    font-size: 1rem;
+  }
+
+  .contact-title {
+    font-size: 1.2rem;
+  }
+
+  .contact-btn {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+
+  .feature-list {
+    padding: 20px 15px;
+  }
+
+  .custom-accordion {
+    padding: 0 10px;
+  }
+
+  .accordion-button {
+    font-size: 1rem;
+  }
+}
+

@@ -1,0 +1,169 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f5f7;
+}
+
+.logo {
+  max-width: 120px;
+  height: auto;
+}
+
+.highlight-price {
+  border: 2px solid green;
+  padding: 0 8px;
+  border-radius: 50px;
+}
+
+.usage-box,
+.call-section {
+  max-width: 900px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2f455a;
+  border-radius: 6px;
+  padding: 1.5rem 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.usage-box p,
+.call-section p {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+h5 {
+  margin-bottom: 10px;
+}
+
+button.btn-dark {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.bi-patch-check-fill {
+  color: #2f455a;
+}
+
+.call-section h3 {
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+
+.contact-btn {
+  font-size: 1.1rem;
+  background-color: #fff;
+  color: #2f455a;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-btn i {
+  font-size: 1.3rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 992px) {
+  h4.display-6, h3.display-6 {
+    font-size: 1.5rem;
+  }
+  .highlight-price {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .usage-box,
+  .call-section {
+    padding: 1rem;
+  }
+
+  h4.display-6,
+  h3.display-6 {
+    font-size: 1.3rem;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+
+  .contact-btn {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .call-section h3 {
+    font-size: 1.5rem;
+  }
+
+  button.btn-dark {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .usage-box,
+  .call-section {
+    padding: 1rem 0.75rem;
+  }
+
+  .usage-box p,
+  .call-section p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .call-section h3 {
+    font-size: 1.4rem;
+  }
+
+  .contact-btn {
+    font-size: 1rem;
+    padding: 8px 16px;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  h5 {
+    font-size: 1.1rem;
+  }
+
+  .highlight-price {
+    font-size: 1rem;
+  }
+
+  img.img-fluid {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  h4.display-6 {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+}
+.display-6 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.custom-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

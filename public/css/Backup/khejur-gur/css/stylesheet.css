@@ -1,0 +1,263 @@
+/* General Body Styling */
+body {
+  font-family: "Noto Sans Bengali", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+/* Top Section */
+.top {
+  background-color: #52a423;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  clip-path: ellipse(70% 110% at center -10%);
+}
+
+.top img {
+  width: 100px;
+  height: auto;
+}
+
+.order-button {
+  background-color: #ff5c1b;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  margin-top: 25px;
+  max-width: 90%;
+  text-align: center;
+}
+
+/* Product Image Section */
+.product-image {
+  width: 60%;
+  margin: 20px auto;
+  border: 3px solid #52a423;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.product-image img {
+  width: 100%;
+  display: block;
+}
+
+/* CTA Buttons */
+.cta-btn, .cta-btn1, .cta-btn2, .cta-bt3 {
+  background-color: #ff5c1b;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  margin-top: 25px;
+  width: 100%;
+  max-width: 320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Special Style for .middle .cta-btn2 */
+.middle .cta-btn2 {
+  background-color: #ff5a1f;
+  font-size: 1.1rem;
+}
+
+/* Checklist Icons */
+.checklist {
+  color: black;
+}
+
+.bi {
+  color: #52a423;
+}
+
+/* Dividers */
+.middle .divider, .middle .divider1 {
+  background-color: white;
+  margin: 10px auto 30px;
+}
+
+.middle .divider {
+  width: 100px;
+  height: 3px;
+}
+
+.middle .divider1 {
+  width: 600px;
+  height: 1px;
+}
+
+/* Middle Section Styling */
+.middle {
+  background-color: #52a423;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+}
+
+.middle h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Last Section */
+.last {
+  background-color: #52a423;
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.last h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Price Cards */
+.price-card {
+  border: 2px solid orange;
+  border-radius: 8px;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  padding: 20px;
+}
+
+.price-card h4 {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.price-card .highlight {
+  color: #ff5722;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.price-card .small-text {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .top, .middle, .last {
+    padding: 40px 20px;
+  }
+
+  .product-image {
+    width: 80%;
+  }
+
+  .cta-btn, .cta-btn1, .cta-btn2, .cta-bt3 {
+    padding: 10px 20px;
+  }
+
+  .order-button {
+    padding: 10px 20px;
+  }
+
+  .top img {
+    width: 80px;
+  }
+
+  .price-card {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+  }
+
+  .middle .divider1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .top, .middle, .last {
+    padding: 30px 10px;
+  }
+
+  .top img {
+    width: 60px;
+  }
+
+  .product-image {
+    width: 90%;
+  }
+
+  .cta-btn, .cta-btn1, .cta-btn2, .cta-bt3, .order-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .price-card h4 {
+    font-size: 18px;
+  }
+
+  .price-card .highlight {
+    font-size: 20px;
+  }
+
+  .small-text {
+    font-size: 12px;
+  }
+
+  .middle .cta-btn2 {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .top, .middle, .last {
+    padding: 20px 10px;
+  }
+
+  .top img {
+    width: 50px;
+  }
+
+  .product-image {
+    width: 100%;
+  }
+
+  .cta-btn, .cta-btn1, .cta-btn2, .cta-bt3, .order-button {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+
+  .price-card h4 {
+    font-size: 16px;
+  }
+
+  .price-card .highlight {
+    font-size: 18px;
+  }
+
+  .price-card {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .small-text {
+    font-size: 10px;
+  }
+}
+.cta-section {
+  padding-left: 15px;
+  padding-right: 15px;
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap');
+
+body {
+  font-family: 'Noto Sans Bengali', sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-img {
+  max-width: 120px;
+  height: auto;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+.fs-5 {
+  font-size: 1.25rem;
+}
+
+.shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+ul li i {
+  vertical-align: middle;
+  font-size: 1.2rem;
+}
+
+.btn-danger {
+  background-color: #e91e63;
+  border-color: #e91e63;
+}
+
+.btn-danger:hover {
+  background-color: #c2185b;
+  border-color: #c2185b;
+}
+
+.btn-outline-danger {
+  border-color: #e91e63;
+  color: #e91e63;
+}
+
+.btn-outline-danger:hover {
+  background-color: #e91e63;
+  color: white;
+}
+
+section {
+  font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+.offer-price-color {
+  color: #e6007e;
+}
+
+.final-section {
+  background-color: #ffe5f0;
+}
+
+.btn-facebook {
+  background-color: #fff;
+  border: 2px solid #1877f2;
+  color: #1877f2;
+  border-radius: 5px;
+}
+
+.btn-facebook:hover {
+  background-color: #1877f2;
+  color: white;
+}
+
+.btn-whatsapp {
+  background-color: #fff;
+  border: 2px solid #25d366;
+  color: #25d366;
+  border-radius: 5px;
+}
+
+.btn-whatsapp:hover {
+  background-color: #25d366;
+  color: white;
+}
+
+.btn-order {
+  background-color: #e6007e;
+  border: 2px solid #e6007e;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.btn-order:hover {
+  background-color: #c2185b;
+  border-color: #c2185b;
+}
+
+.final-section ul li i {
+  font-size: 1.3rem;
+  vertical-align: middle;
+}
+
+.why-list {
+  margin: 0 auto;
+  text-align: left;
+  max-width: 500px;
+  padding-left: 1rem;
+}
+
+@media (max-width: 576px) {
+  .btn-facebook,
+  .btn-whatsapp,
+  .btn-order {
+    width: 100%;
+  }
+
+  .final-section ul {
+    padding-left: 1rem;
+  }
+}

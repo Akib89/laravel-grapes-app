@@ -1,0 +1,3814 @@
+/********* 3-piece ********/
+
+.threep body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .threep .logo{
+    max-width: 100px;
+  }
+  
+  .threep .text-magenta {
+    color: #e6007e;
+  }
+  
+  .threep .btn-pink {
+    background-color: #e6007e;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  .threep .btn-pink:hover {
+    background-color: #c10066;
+  }
+  
+  .threep .carousel-inner img {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+ 
+  
+  .threep .feature-list li {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    font-weight: 500;
+    color: #111;
+    font-weight: 600;
+  }
+  
+  .threep .btn-order {
+    background-color: #e6007e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 2px solid white;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .threep .btn-order:hover {
+    background-color: #c4006a;
+    color: #fff;
+  }
+  
+  .threep .carousel-inner img {
+    border-radius: 10px;
+    max-height: 500px;
+    object-fit: cover;
+  }
+  .threep .feature-section{
+
+    background-color: #fde6ee;
+  }
+
+  .threep .feature-section {
+    background-color: #fde6ee;
+  }
+  
+  .threep .btn-order{
+    background-color: #e6007e;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 4px;
+    border: 2px solid white;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .threep .btn-order:hover {
+    background-color: #c4006a;
+    color: #fff;
+  }
+  
+  .threep .btn-facebook {
+    background-color: #1877f2;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .threep .btn-facebook:hover {
+    background-color: #0f5bdc;
+  }
+  
+  .threep .btn-whatsapp {
+    background-color: #25d366;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .threep .btn-whatsapp:hover {
+    background-color: #1cb85c;
+  }
+  .threep .tick {
+    color: #e6007e; /* pink */
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  /* Base Optimization */
+@media (max-width: 1200px) {
+  .threep .feature-list li {
+    font-size: 1rem;
+  }
+  .threep .btn-order {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}
+
+/* Tablets & Large Mobiles: iPad Pro, iPad Air, iPad Mini, Surface Pro 7, Surface Duo, Galaxy Z Fold 5, Zenbook Fold */
+@media (max-width: 991px) {
+  h2, h3 {
+    font-size: 1.6rem;
+  }
+  .threep .btn-order,
+  .threep .btn-facebook,
+  .threep .btn-whatsapp {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  .carousel-inner img {
+    max-height: 350px;
+  }
+  .feature-list-threep li {
+    font-size: 0.95rem;
+  }
+}
+
+/* Medium Phones: iPhone XR, 12 Pro, Pixel 7, Galaxy A51, S8+, Nest Hub Max */
+@media (max-width: 768px) {
+  .threep .logo-threep {
+    max-width: 90px;
+  }
+  h2, h3 {
+    font-size: 1.4rem;
+  }
+  .threep .btn-order,
+  .threep .btn-facebook,
+  .threep .btn-whatsapp {
+    font-size: 0.95rem;
+    padding: 8px 18px;
+  }
+  .threep .carousel-inner img {
+    max-height: 300px;
+  }
+  .threep .feature-list-threep li {
+    font-size: 0.9rem;
+  }
+}
+
+/* Small Phones: iPhone SE, iPhone 14 Pro Max, Galaxy S20 Ultra */
+@media (max-width: 576px) {
+  .threep .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .threep h2, h3 {
+    font-size: 1.25rem;
+  }
+  .threep .btn-order-threep,
+  .threep .btn-facebook,
+  .threep .btn-whatsapp {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+  .threep .carousel-inner img {
+    max-height: 250px;
+  }
+  .threep .feature-list-threep li {
+    font-size: 0.85rem;
+  }
+}
+
+/* Foldables & Compact Layouts: Duo, Z Fold, Zenbook, Nest Hub */
+@media (max-width: 480px) {
+  .threep h2, h3 {
+    font-size: 1.1rem;
+  }
+  .threep .btn-order-threep,
+  .threep .btn-facebook,
+  .threep .btn-whatsapp {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+  }
+  .threep .carousel-inner img {
+    max-height: 220px;
+  }
+  .threep .feature-list li {
+    font-size: 0.8rem;
+  }
+}
+
+/* Nest Hub Base (Landscape Smart Displays) */
+@media (max-width: 1024px) and (max-height: 600px) {
+  .threep h2, h3 {
+    font-size: 1.4rem;
+  }
+  .threep .btn-order,
+  .threep .btn-facebook,
+  .threep .btn-whatsapp {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+}
+
+
+/************** allergy-cure **********/
+.allergycure body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.allergycure .hero-section {
+  background: url('../assets/images/allergy-cure/_DSC9898.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 60px 1rem;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.allergycure .hero-heading {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+}
+
+.allergycure .brand-logo {
+  max-width: 120px;
+  text-align: center;
+}
+
+/* Offer Section */
+.allergycure .offer-section,
+.allergycure .offer-extended,
+.allergycure .review-section {
+  background-color: #f8f9fa;
+  padding: 2rem 1rem;
+}
+
+.allergycure .video-frame iframe {
+  border-radius: 10px;
+  border: 2px dotted white;
+  width: 100%;
+  height: auto;
+}
+
+.allergycure .text-course,
+.allergycure .line-through,
+.allergycure .offer-price,
+.allergycure .delivery-note {
+  font-weight: 800;
+  font-size: 2rem;
+  color: #198754;
+}
+
+.allergycure .offer-price {
+  color: #212529;
+  margin-bottom: 0.5rem;
+}
+
+.allergycure .offer-amount {
+  border-bottom: 2px solid #198754;
+  padding-bottom: 2px;
+}
+
+.allergycure .offer-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.allergycure .offer-description {
+  color: orangered;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.allergycure .offer-description1 {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.allergycure .btn-order {
+  background-color: #fd7e14;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.allergycure .btn-order:hover {
+  background-color: #e96a06;
+}
+
+.allergycure .reviews-section {
+  background-color: #fff;
+  padding: 2rem 1rem;
+}
+
+.allergycure .section-title,
+.allergycure .review-title {
+  color: #198754;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.allergycure .review-section img {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 100%;
+  height: auto;
+}
+
+.allergycure .review-section img:hover {
+  transform: scale(1.05);
+}
+
+/* Green Box Styles */
+.allergycure .greenbox,
+.allergycure .green-box {
+  background-color: green;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+  max-width: 800px;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+/* Footer */
+.allergycure .green-footer {
+  background-color: green;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Refund Text */
+.allergycure .refund-text {
+  color: #f7931e;
+  font-size: 1.25rem;
+  font-weight: 600;
+  max-width: 1000px;
+  text-align: center;
+  line-height: 2rem;
+  margin: 1rem auto;
+}
+
+/* Bordered Box */
+.allergycure .border-orange {
+  border: 1px solid #fd7e14;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+/* Card Image */
+.allergycure .card-img-top {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: 100%;
+  height: auto;
+}
+
+/* List Styles */
+.allergycure .benefit-list,
+.allergycure .ingredient-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.allergycure .benefit-list li,
+.allergycure .ingredient-list li {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.allergycure .benefit-list i,
+.allergycure .ingredient-list i {
+  color: green;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Background Utility */
+.allergycure .bg-green {
+  background-color: green;
+}
+
+/* === Responsive Media Queries === */
+@media (max-width: 992px) {
+  .allergycure .hero-heading {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+
+  .allergycure .offer-description,
+  .allergycure .offer-description1,
+  .allergycure .refund-text {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+  .allergycure .text-course,
+  .allergycure .line-through,
+  .allergycure .offer-price,
+  .allergycure .delivery-note {
+    font-size: 1.6rem;
+  }
+
+  .allergycure .brand-logo {
+    max-width: 100px;
+  }
+
+  .allergycure .btn-order {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.95rem;
+  }
+
+  .allergycure .benefit-list li,
+  .allergycure .ingredient-list li {
+    font-size: 0.95rem;
+  }
+
+  .allergycure .greenbox,
+  .allergycure .green-box,
+  .allergycure .refund-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .allergycure .hero-heading {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .allergycure .text-course,
+  .allergycure .line-through,
+  .allergycure .offer-price,
+  .allergycure .delivery-note {
+    font-size: 1.5rem;
+  }
+
+  .allergycure .brand-logo {
+    max-width: 90px;
+  }
+
+  .allergycure .btn-order {
+    font-size: 0.95rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  .allergycure .offer-description,
+  .allergycure .offer-description1,
+  .allergycure .refund-text {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .allergycure .greenbox,
+  .allergycure .green-box {
+    padding: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .allergycure .video-frame iframe {
+    height: 300px;
+  }
+
+  .allergycure .benefit-list li,
+  .allergycure .ingredient-list li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .allergycure .hero-heading {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+
+  .allergycure .text-course,
+  .allergycure .line-through,
+  .allergycure .offer-price,
+  .allergycure .delivery-note {
+    font-size: 1.3rem;
+  }
+
+  .allergycure .brand-logo {
+    max-width: 80px;
+  }
+
+  .allergycure .btn-order {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    width: 80%;
+  }
+
+  .allergycure .benefit-list li,
+  .allergycure .ingredient-list li {
+    font-size: 0.9rem;
+    flex-direction: row;
+    font-weight: 500;
+  }
+
+  .allergycure .offer-description,
+  .allergycure .offer-description1,
+  .allergycure .refund-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .allergycure .greenbox,
+  .allergycure .green-box {
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .allergycure .video-frame iframe {
+    height: 200px;
+  }
+}
+
+////////////////* blue-cut *////////////////////
+
+.blue-cut body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.blue-cut .promo-section {
+  background-color: #3498db;
+  min-height: 90vh;
+  padding: 20px 20px; 
+}
+
+
+
+.blue-cut .timer-box {
+  background-color: #fffb00;
+  color: #000;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.blue-cut .time {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.blue-cut .label {
+  font-size: 16px;
+}
+
+.blue-cut .text-highlight {
+  color: #f9e000;
+  font-size: 4rem;
+}
+
+.blue-cut .row.justify-content-center.mb-4 {
+  margin-top: -180px;
+}
+
+.blue-cut .package-section h3 {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.blue-cut .package-section ul li {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color:#474c52;
+}
+
+.blue-cut .offer-section {
+  background-color: #474c52;
+  padding: 30px 50px;
+}
+
+.blue-cut .offer-section h2{
+  font-size: 3.2rem;
+}
+
+.blue-cut .text-decoration-underline {
+  text-decoration: underline;
+}
+
+.blue-cut .benefit-box {
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+.blue-cut .benefit-box p {
+  margin: 0;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.blue-cut .ordr-btn{
+    text-align: center;
+    padding: 20px;
+}
+.blue-cut .ordr-btn .btn {
+  font-size: 1.5rem;     
+  padding: 16px 40px;   
+  border-radius: 12px;  
+}
+/* Base responsiveness */
+@media (max-width: 1200px) {
+  .blue-cut .text-highlight {
+    font-size: 3rem;
+  }
+  .blue-cut .offer-section h2 {
+    font-size: 2.5rem;
+  }
+  .blue-cut .package-section ul li {
+    font-size: 1.2rem;
+  }
+  .blue-cut .benefit-box p {
+    font-size: 1.2rem;
+  }
+  .blue-cut .ordr-btn .btn {
+    font-size: 1.3rem;
+    padding: 14px 30px;
+  }
+}
+
+/* Tablets (iPad Mini, iPad Air, iPad Pro, Surface Pro 7) */
+@media (max-width: 991px) {
+  .blue-cut .text-highlight {
+    font-size: 2.6rem;
+  }
+  .blue-cut .offer-section h2 {
+    font-size: 2.2rem;
+  }
+  .blue-cut .package-section h3 {
+    font-size: 1.8rem;
+  }
+  .blue-cut .benefit-box p {
+    font-size: 1.1rem;
+  }
+  .blue-cut .ordr-btn .btn {
+    font-size: 1.2rem;
+    padding: 12px 28px;
+  }
+}
+
+/* Medium phones (Pixel 7, iPhone XR, Galaxy A51, Nest Hub Max, etc.) */
+@media (max-width: 768px) {
+  .blue-cut .text-highlight {
+    font-size: 2.2rem;
+  }
+  .blue-cut .offer-section h2 {
+    font-size: 2rem;
+  }
+  .blue-cut .package-section ul li {
+    font-size: 1rem;
+  }
+ .blue-cut .benefit-box p {
+    font-size: 1rem;
+  }
+  .blue-cut .ordr-btn .btn {
+    font-size: 1.1rem;
+    padding: 10px 24px;
+  }
+  .blue-cut .row.justify-content-center.mb-4 {
+    margin-top: -80px;
+  }
+}
+
+/* Small phones (iPhone SE, iPhone 12 Pro, Galaxy S8+, Surface Duo) */
+@media (max-width: 576px) {
+  .blue-cut .text-highlight {
+    font-size: 1.8rem;
+  }
+  .blue-cut .offer-section h2 {
+    font-size: 1.6rem;
+  }
+  .blue-cut .offer-section {
+    padding: 20px 20px;
+  }
+  .blue-cut .package-section h3 {
+    font-size: 1.5rem;
+  }
+  .blue-cut .package-section ul li {
+    font-size: 0.95rem;
+  }
+  .blue-cut .benefit-box p {
+    font-size: 0.95rem;
+  }
+  .blue-cut .ordr-btn .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  .blue-cut .timer-box {
+    padding: 6px;
+  }
+  .blue-cut .time {
+    font-size: 24px;
+  }
+  .blue-cut .label {
+    font-size: 12px;
+  }
+}
+
+/* Foldables (Galaxy Z Fold 5, Zenbook Fold) */
+@media (max-width: 480px) and (max-height: 800px) {
+  .blue-cut .text-highlight {
+    font-size: 1.7rem;
+  }
+  .blue-cut .benefit-box {
+    padding: 10px;
+  }
+  .blue-cut .ordr-btn .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+/* Smart Displays (Nest Hub, Nest Hub Max) */
+@media (max-width: 1024px) and (max-height: 600px) {
+  .blue-cut .text-highlight {
+    font-size: 2rem;
+  }
+  .blue-cut .ordr-btn .btn {
+    font-size: 1.1rem;
+  }
+}
+
+/******** combo-pack ********/
+
+.combo-pack body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fefefe;
+}
+
+.combo-pack .top{
+  background-color: #d5d8db;
+}
+
+.combo-pack .highlight {
+  padding: 20px 10%;
+  text-align: center;
+}
+
+.combo-pack .text1 {
+  font-weight: 400;
+  color: #c36;
+  font-size: 2.5rem;
+  padding-bottom: 5px;
+}
+
+.combo-pack .text2 {
+  font-size: 0.9rem;
+  padding-bottom: 30px;
+}
+
+.combo-pack .text3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.combo-pack .brand-logo {
+  width: 130px;
+  height: auto;
+  padding-top: 30px;
+}
+
+.combo-pack .highlight1 {
+  font-weight: 900;
+  font-size: 2rem;
+  padding-bottom: 30px;
+}
+
+.combo-pack .product-img {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 0;
+  height: auto;
+}
+
+.combo-pack .description {
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 20px;
+}
+
+.combo-pack .order-btn {
+  background-color: #1C5E20;
+  color: white;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 1rem;
+}
+
+.combo-pack .combo-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.combo-pack .combo-card img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.combo-pack .combo-card h5 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 12px;
+  color: #000;
+}
+
+.combo-pack .price-old {
+  font-size: 17px;
+  color: red;
+  text-decoration: line-through;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.combo-pack .price-offer {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.combo-pack .btn-order {
+  background-color: #2e7d32;
+  color: white;
+  font-size: 15px;
+  padding: 6px 14px;
+  font-weight: 700;
+  border-radius: 6px;
+  border: none;
+}
+
+.combo-pack .order-btn:hover {
+  background-color: #1b5e20;
+}
+
+.combo-pack .green-bar {
+  background-color: #1b5e20;
+  color: white;
+  font-weight: bold;
+  font-size: 1.8rem;
+  border-radius: 30px;
+  text-align: center;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+.combo-pack .custom-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.combo-pack .custom-list {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.combo-pack .custom-list li {
+  display: flex;
+  align-items: flex-start;
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.combo-pack .check-circle {
+  background-color: #198754;
+  color: white;
+  font-size: 1rem;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.combo-pack .call-section {
+  background-color: #185b1e;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 6px;
+}
+
+.combo-pack .call-section h3 {
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+
+.combo-pack .contact-btn {
+  font-size: 1rem;
+  background-color: #fff;
+  color: #185b1e;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.combo-pack .contact-btn i {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .combo-pack .highlight1 {
+    font-size: 1.5rem;
+  }
+
+  .combo-pack .green-bar {
+    font-size: 1.4rem;
+    padding: 10px;
+    margin: 15px auto;
+  }
+
+  .combo-pack .combo-card img {
+    max-height: 240px;
+  }
+
+  .combo-pack .text1,
+  .text3 {
+    font-size: 1.8rem;
+  }
+
+  .combo-pack .description {
+    font-size: 1rem;
+  }
+
+  .combo-pack .custom-list {
+    font-size: 1rem;
+  }
+}
+
+
+//////////////////* headphones */////////////////////
+
+/* General Body Styles */
+.headphones body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headphones h1 {
+  font-size: 2.2rem;
+  background-color: #343a40;
+  color: white;
+  padding: 15px;
+}
+
+.headphones h2 {
+  font-size: 1.5rem;
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Primary Section (Header) */
+.headphones .bg-primary {
+  background-color: #007bff !important;
+}
+
+.headphones .text-white {
+  color: white !important;
+}
+
+.headphones .text-warning {
+  color: #ffc107 !important;
+}
+
+.headphones .fs-4 {
+  font-size: 1.25rem;
+}
+
+.headphones .fs-5 {
+  font-size: 1.15rem;
+}
+
+.headphones .text-center {
+  text-align: center !important;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+.headphones .cta-btn {
+  background-color: #3498DB;
+  color: white;
+  font-weight: 900;
+  border: none;
+  padding: 20px;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 320px;
+  font-size: 1.5rem;
+  margin: 25px auto;
+  display: block;
+}
+
+.headphones .center-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.headphones .btn {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.headphones .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+.headphones .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+
+.headphones .btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: white;
+}
+
+.headphones .btn-light {
+  background-color: #f8f9fa;
+  border-color: #ced4da;
+  border-radius: 0.375rem;
+}
+
+.headphones .btn-light:hover {
+  background-color: #e2e6ea;
+}
+
+/* Images */
+.headphones img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.headphones .product-image {
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  border-radius: 10px;
+}
+
+/* Icons */
+.headphones .bi {
+  margin-right: 8px;
+  font-size: 1.3rem;
+}
+
+/* Product Details */
+.headphones .product-details {
+  list-style: none;
+  padding-left: 0;
+}
+
+.headphones .product-details li {
+  font-size: 1.2rem;
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.headphones .product-details li i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.headphones .product-details li strong {
+  font-weight: bold;
+}
+
+/* Grid Gap Utility */
+.headphones .d-grid {
+  display: grid;
+  gap: 10px;
+}
+
+/* Utility */
+.headphones .text-start {
+  text-align: left;
+}
+
+.headphones .mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.headphones .mt-4 {
+  margin-top: 1.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .headphones h1 {
+    font-size: 2rem;
+  }
+
+ .headphones  h2 {
+    font-size: 1.25rem;
+  }
+
+  .headphones .cta-btn {
+    font-size: 1.3rem;
+    padding: 16px;
+  }
+
+  .headphones .product-details li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+ .headphones .product-image {
+    max-width: 100%;
+  }
+
+  .headphones h1 {
+    font-size: 1.6rem;
+  }
+
+  .headphones h2 {
+    font-size: 1.1rem;
+  }
+
+  .headphones .cta-btn {
+    font-size: 1.1rem;
+    padding: 14px;
+  }
+
+  .headphones .center-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .headphones .cta-btn {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .headphones .product-details li {
+    font-size: 0.95rem;
+  }
+}
+.headphones img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+///////////////////* jacket *////////////////////
+
+.jacket body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.jacket .top{
+  background-color: #f2e1b9;
+}
+
+.jacket .highlight1-blackbox {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 2.3rem;
+  border-radius: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.jacket .first {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 40px;
+}
+.jacket .second {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.jacket .brand-logo {
+  width: 130px;
+  height: auto;
+  padding-top: 30px;
+}
+
+.jacket .order-btn {
+  background-color: #f0c23a;
+  color: white;
+  font-weight: bold;
+  padding: 20px 25px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 1rem;
+}
+
+.jacket .order-btn:hover {
+  background-color: #e0b020;
+}
+
+.jacket .product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.jacket .product-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.jacket .highlight1-yellowbox {
+  background-color: #f0c23a;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.jacket .custom-accordion .accordion-button {
+  background-color: white;
+  color: #d89d00;
+  font-weight: bold;
+  font-size: 1.05rem;
+  border: none;
+  box-shadow: none;
+}
+
+.jacket .custom-accordion .accordion-button::after {
+  content: "+";
+  font-size: 1.2rem;
+  color: #d89d00;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.jacket .custom-accordion .accordion-button:not(.collapsed)::after {
+  content: "−";
+  transform: rotate(180deg);
+}
+
+.jacket .custom-accordion .accordion-body {
+  background-color: #fcfcfc;
+  color: #333;
+  font-size: 1rem;
+}
+
+.jacket .list {
+  background-color: #e6a500;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.jacket .feature-list1 {
+  padding: 30px 20px;
+  background-color: #f2e1b9;
+  max-width: 600px; /* Adjust this as needed */
+  margin: 0 auto;
+  border-radius: 10px; /* Optional for nicer look */
+}
+
+.jacket .feature-item {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+.jacket .check-icon {
+  color: black;
+  margin-right: 10px;
+}
+.jacket .highlight1 {
+  font-weight: bold;
+}
+.jacket .btn-custom {
+  background-color: #f1c40f;
+  border: none;
+  font-weight: bold;
+  color: #333;
+}
+.jacket .btn-custom {
+  background-color: #f0c23a;
+  color: white;
+  font-weight: bold;
+  padding: 20px 25px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 1rem;
+}
+.jacket .highlight1-yellowbox2 {
+  background-color: #f0c23a;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.jacket table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #f2e1b9;
+  font-size: 2rem;
+}
+
+.jacket th,
+.jacket td {
+  text-align: left;
+  padding: 8px;
+}
+
+.jacket tr:nth-child(even) {
+  background-color: white;
+}
+.jacket .highlight1-yellowbox3 {
+  background-color: #f0c23a;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+.jacket .highlight1-whitebox {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(245, 185, 66, 0.7), 0 0 20px rgba(245, 185, 66, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+.jacket .highlight1-yellowbox4 {
+  background-color: #f0c23a;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.jacket .contact-section12{
+  background-color: #daaa36;
+  padding: 40px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.jacket .contact-title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.jacket .contact-btn {
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px 10px;
+  text-decoration: none;
+}
+
+.jacket .btn-phone {
+  background-color: black;
+}
+
+.jacket .btn-whatsapp {
+  background-color: #25d366;
+}
+
+.jacket .btn-messenger {
+  background-color: #0084ff;
+}
+
+.jacket .contact-btn i {
+  font-size: 18px;
+}
+.jacket .custom-accordion {
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto; /* This centers it */
+}
+.jacket .table-size-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0; /* spacing above and below */
+}
+
+.jacket .table-size {
+  background-color: #f2e1b9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.jacket table-wrapper-2 {
+  border-collapse: collapse;
+  width: 100%; /* Keep this so table fills its container */
+  font-size: 2rem;
+}
+
+.jacket th,
+.jacket td {
+  text-align: left;
+  padding: 8px;
+}
+
+.jacket tr:nth-child(even) {
+  background-color: white;
+}
+
+/* Optional: Limit max width */
+.jacket .table-size {
+  max-width: 800px; /* Adjust as needed */
+  width: 100%;
+}
+
+/* Responsive Design Enhancements */
+@media (max-width: 768px) {
+  .jacket .highlight1-blackbox {
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+
+  .jacket .first {
+    font-size: 1.2rem;
+    padding: 20px;
+  }
+
+  .jacket .second {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+
+  .jacket .order-btn,
+  .jacket .btn-custom {
+    padding: 15px 20px;
+    font-size: 0.95rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .jacket .brand-logo {
+    width: 100px;
+    padding-top: 20px;
+  }
+
+  .jacket .list {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+
+  .jacket .feature-item {
+    font-size: 1rem;
+  }
+
+  .jacket .highlight1-yellowbox,
+  .jacket .highlight1-yellowbox2,
+ .jacket .highlight1-yellowbox3,
+  .jacket .highlight1-yellowbox4 {
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+
+  .jacket .highlight1-whitebox {
+    font-size: 1rem;
+    padding: 15px;
+  }
+
+  .jacket table {
+    font-size: 1rem;
+  }
+
+  .jacket .contact-title {
+    font-size: 1.2rem;
+  }
+
+  .jacket .contact-btn {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+
+  .jacket .feature-list {
+    padding: 20px 15px;
+  }
+
+  .jacket .custom-accordion {
+    padding: 0 10px;
+  }
+
+  .jacket .accordion-button {
+    font-size: 1rem;
+  }
+}
+
+///////////////* juta *////////////////////
+
+.juta body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f5f7;
+}
+
+.juta .logo {
+  max-width: 120px;
+  height: auto;
+}
+
+.juta .highlight-price {
+  border: 2px solid green;
+  padding: 0 8px;
+  border-radius: 50px;
+}
+
+.juta .usage-box,
+.juta .call-section {
+  max-width: 900px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2f455a;
+  border-radius: 6px;
+  padding: 1.5rem 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.juta .usage-box p,
+.juta .call-section p {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.juta h5 {
+  margin-bottom: 10px;
+}
+
+.juta button.btn-dark {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.juta .bi-patch-check-fill {
+  color: #2f455a;
+}
+
+.juta .call-section h3 {
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+
+.juta .contact-btn {
+  font-size: 1.1rem;
+  background-color: #fff;
+  color: #2f455a;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.juta .contact-btn i {
+  font-size: 1.3rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 992px) {
+ .juta  h4.display-6, 
+ .juta h3.display-6 {
+    font-size: 1.5rem;
+  }
+  .juta .highlight-price {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .juta .usage-box,
+  .juta .call-section {
+    padding: 1rem;
+  }
+
+  .juta h4.display-6,
+  .juta h3.display-6 {
+    font-size: 1.3rem;
+  }
+
+  .juta .logo {
+    max-width: 100px;
+  }
+
+  .juta .contact-btn {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .juta .call-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .juta button.btn-dark {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .juta .usage-box,
+  .juta .call-section {
+    padding: 1rem 0.75rem;
+  }
+
+  .juta .usage-box p,
+  .juta .call-section p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .juta .call-section h3 {
+    font-size: 1.4rem;
+  }
+
+  .juta .contact-btn {
+    font-size: 1rem;
+    padding: 8px 16px;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .juta h5 {
+    font-size: 1.1rem;
+  }
+
+  .juta .highlight-price {
+    font-size: 1rem;
+  }
+
+  .juta img.img-fluid {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  .juta h4.display-6 {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+}
+.juta .display-6 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.juta .custom-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+////////////////////* ladies-hand-bag *////////////////////
+
+.ladies-hand-bag body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.ladies-hand-bag .hero-leather {
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+  position: relative;
+}
+
+.ladies-hand-bag .hero-leather img {
+  width: 180px;
+  margin-bottom: 1.5rem;
+  margin-top: -40px;
+}
+
+.ladies-hand-bag .hero-leather h2 {
+  color: #ffc9d9;
+  font-weight: 900;
+  margin-bottom: 4rem;
+  font-size: 3rem;
+}
+
+.ladies-hand-bag .hero-leather p {
+  max-width: 800px;
+  margin: 0 auto 1.2rem;
+  font-size: 1.2rem;
+}
+
+.ladies-hand-bag .hero-leather .btn-light {
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 25px;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color:#3f1d4a;
+}
+
+.ladies-hand-bag .text-dark-purple {
+  color: #3f1d4a;
+}
+
+.ladies-hand-bag .btn-purple {
+  background-color: #3f1d4a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.ladies-hand-bag .btn-purple:hover {
+  background-color: #2e1035;
+  color: #fff;
+}
+
+.ladies-hand-bag .video-description
+{ 
+font-weight: 900;
+font-size: 1.5rem;
+color: #3f1d4a;
+
+}
+
+.ladies-hand-bag .video-wrapper {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.ladies-hand-bag .video-border {
+  border: 4px solid #3f1d4a; /* purple */
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.ladies-hand-bag .video-border iframe {
+  width: 100%;
+  height: 315px;
+  display: block;
+}
+
+
+.ladies-hand-bag .feature-section {
+  padding: 50px 0;
+}
+
+.ladies-hand-bag .carousel-border {
+  border: 2px solid #3f1d4a;
+  border-radius: 12px;
+  padding: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.ladies-hand-bag .carousel-item img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.ladies-hand-bag .feature-box {
+  border-left: 5px solid #3f1d4a;
+  padding-left: 20px;
+}
+
+.ladies-hand-bag .feature-box h5 {
+  background-color: #3f1d4a;
+  color: #fff;
+  display: inline-block;
+  padding: 6px 15px;
+  border-radius: 6px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.ladies-hand-bag .feature-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ladies-hand-bag .feature-box ul li {
+  font-size: 1rem;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.ladies-hand-bag .feature-box ul li i {
+  color: #3f1d4a;
+  margin-right: 10px;
+}
+
+.ladies-hand-bag .btn-purple {
+  background-color: #3f1d4a;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.ladies-hand-bag .btn-purple:hover {
+  background-color: #2c0d36;
+  color: #fff;
+}
+
+.ladies-hand-bag .wave-decor {
+  line-height: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.ladies-hand-bag .wave-decor svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.ladies-hand-bag .product-card {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #4b2656;
+  color: white;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+.ladies-hand-bag .product-card h5 {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.ladies-hand-bag .product-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.ladies-hand-bag .product-card .price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.ladies-hand-bag .product-card .delivery-note {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.ladies-hand-bag .product-card .btn-order {
+  background-color: white;
+  color: #3f1d4a;
+  font-weight: bold;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.ladies-hand-bag .product-card .btn-order:hover {
+  background-color: #eee;
+}
+.ladies-hand-bag .procard {
+  background-color: #3f1d4a;
+}
+
+.ladies-hand-bag .reason-section {
+    padding: 60px 20px;
+  }
+  
+  .ladies-hand-bag .reason-header {
+    background-color: #4b2656;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+  }
+  
+  .ladies-hand-bag .reason-list {
+    list-style: none;
+    padding-left: 0;
+    font-weight: bold;
+  }
+  
+.ladies-hand-bag .reason-list li {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.ladies-hand-bag .reason-list li i {
+  color: #4b2656;
+  margin-right: 12px;
+}
+
+.ladies-hand-bag .call-section {
+  background-color: #4b2656;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.ladies-hand-bag .call-section h3 {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.ladies-hand-bag .call-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: white;
+  color: #4b2656;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 10px 5px;
+}
+
+.ladies-hand-bag .call-btn i {
+  margin-right: 10px;
+}
+
+.ladies-hand-bag .call-btn:hover {
+  background-color: #f1f1f1;
+  text-decoration: none;
+  color: #3a1c47;
+}
+
+
+
+@media (max-width: 1200px) {
+  .ladies-hand-bag .hero-leather h2 {
+    font-size: 2.5rem;
+  }
+  .ladies-hand-bag .product-card h5 {
+    font-size: 1.2rem;
+  }
+  .ladies-hand-bag .video-description {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .ladies-hand-bag .hero-leather h2 {
+    font-size: 2.2rem;
+  }
+  .ladies-hand-bag .video-description {
+    font-size: 1.1rem;
+  }
+  .ladies-hand-bag .product-card .price {
+    font-size: 1.2rem;
+  }
+  .ladies-hand-bag .product-card img {
+    max-height: 300px;
+  }
+  .ladies-hand-bag .feature-box h5 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .ladies-hand-bag .hero-leather h2 {
+    font-size: 2rem;
+  }
+  .ladies-hand-bag .hero-leather p {
+    font-size: 1rem;
+  }
+  .ladies-hand-bag .btn-purple,
+  .ladies-hand-bag .btn-light,
+  .ladies-hand-bag .btn-order {
+    font-size: 1.1rem;
+    padding: 8px 16px;
+  }
+  .ladies-hand-bag .product-card .price {
+    font-size: 1.1rem;
+  }
+  .ladies-hand-bag .product-card .delivery-note {
+    font-size: 0.95rem;
+  }
+  .ladies-hand-bag .call-btn {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ladies-hand-bag .hero-leather img {
+    width: 120px;
+  }
+ .ladies-hand-bag .hero-leather h2 {
+    font-size: 1.7rem;
+  }
+ .ladies-hand-bag .product-card h5 {
+    font-size: 1rem;
+  }
+  .ladies-hand-bag .product-card img {
+    max-height: 250px;
+  }
+  .ladies-hand-bag .feature-box {
+    padding-left: 10px;
+    border-left: 3px solid #3f1d4a;
+  }
+  .ladies-hand-bag .reason-list li {
+    font-size: 1rem;
+  }
+  .ladies-hand-bag .call-btn {
+    font-size: 0.95rem;
+    padding: 6px 14px;
+  }
+}
+
+@media (max-width: 1024px) and (max-height: 800px) {
+  .ladies-hand-bag .product-card img {
+    max-height: 240px;
+  }
+  .ladies-hand-bag .video-description {
+    font-size: 1.1rem;
+  }
+  .ladies-hand-bag .btn-purple {
+    font-size: 1.1rem;
+    padding: 8px 16px;
+  }
+}
+@media (max-width: 576px) {
+ .ladies-hand-bag .video-border iframe {
+    height: 200px;
+  }
+}
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+
+.ladies-hand-bag .header {
+  position: relative;
+  text-align: center;
+  background-color: #3f1d4a;
+  color: white;
+}
+
+
+.ladies-hand-bag .inner-header {
+  height:65vh;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+.ladies-hand-bag .flex { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ladies-hand-bag .waves {
+  position:relative;
+  width: 100%;
+  height:15vh;
+  margin-bottom:-7px; 
+  min-height:100px;
+  max-height:150px;
+}
+
+.ladies-hand-bag .content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+
+
+
+.ladies-hand-bag .parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.ladies-hand-bag .parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.ladies-hand-bag .parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.ladies-hand-bag .parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.ladies-hand-bag .parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+
+@media (max-width: 768px) {
+  .ladies-hand-bag .waves {
+    height:40px;
+    min-height:40px;
+  }
+  .ladies-hand-bag .content {
+    height:30vh;
+  }
+  
+}
+
+////////////* modhu *////////////////////
+
+.modhu body {
+  font-family: 'Noto Sans Bengali', sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.modhu .verse {
+  font-size: 2.5rem;
+  line-height: 1.6;
+}
+
+.modhu .surah {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.modhu .description {
+  font-size: 1.5rem;
+  color: #000;
+  margin-top: 0.5rem;
+}
+
+.modhu .tagline {
+  font-size: 2rem;
+  color: #4cb1e6;
+  margin-top: 1rem;
+}
+
+.modhu .btn-danger {
+  background-color: #c62828;
+  border: none;
+}
+
+.modhu .btn-danger:hover {
+  background-color: #b71c1c;
+}
+
+.modhu .image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.modhu .benefits-text {
+  color: #75c6f2;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.modhu .custom-btn {
+  background: linear-gradient(to right, #d32f2f, #f06292);
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.modhu .custom-btn:hover {
+  background: linear-gradient(to right, #b71c1c, #ec407a);
+}
+
+.modhu .benefit-list li {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+  line-height: 1.8;
+}
+
+.modhu hr {
+  margin: 0.3rem 0 1rem 0;
+  border-top: 1px solid #ccc;
+}
+
+.modhu .benefit-section {
+  background-color: #165300; /* dark green */
+}
+
+.modhu .benefit-list li {
+  font-size: 1.2rem;
+  color: #4ca9cf;
+  margin-bottom: 0.5rem;
+}
+
+.modhu .benefit-list hr {
+  margin: 0.3rem 0 0.7rem 0;
+  border: none;
+  border-top: 2px solid #ddd;
+}
+
+/* === RESPONSIVE TWEAKS FOR VARIOUS DEVICES === */
+
+/* iPhone SE */
+@media (max-width: 375px) {
+  .modhu .verse { font-size: 1.8rem; }
+  .modhu .tagline { font-size: 1.5rem; }
+  .modhu .description, 
+  .modhu .benefits-text, 
+  .modhu .benefit-list li {
+    font-size: 1rem; line-height: 1.6;
+  }
+  .modhu .custom-btn, .btn-danger {
+    font-size: 1rem; padding: 0.5rem 1rem;
+  }
+}
+
+/* iPhone XR, Pixel 7, Galaxy S20 Ultra, Galaxy A51 */
+@media (max-width: 414px) {
+  .modhu .verse { font-size: 1.8rem; }
+  .modhu .tagline { font-size: 1.5rem; }
+  .modhu .description, 
+  .modhu .benefits-text, 
+  .modhu .benefit-list li {
+    font-size: 1rem; line-height: 1.6;
+  }
+  .custom-btn, .btn-danger {
+    font-size: 1rem; padding: 0.5rem 1rem;
+  }
+}
+
+/* iPhone 12 Pro */
+@media (max-width: 390px) {
+  .modhu .verse { font-size: 1.8rem; }
+}
+
+/* iPhone 14 Pro Max */
+@media (max-width: 430px) {
+  .modhu .verse { font-size: 1.8rem; }
+}
+
+/* Galaxy S8+ */
+@media (max-width: 360px) {
+  .modhu .verse { font-size: 1.7rem; }
+}
+
+/* Surface Duo */
+@media (max-width: 540px) {
+  .modhu .verse { font-size: 1.8rem; }
+}
+
+/* Galaxy Z Fold 5 */
+@media (max-width: 653px) {
+  .modhu .verse { font-size: 1.8rem; }
+}
+
+/* iPad Mini, ASUS Zenbook Fold */
+@media (max-width: 768px) {
+  .modhu .verse { font-size: 2rem; }
+}
+
+/* iPad Air */
+@media (max-width: 820px) {
+  .verse { font-size: 2rem; }
+}
+
+/* Surface Pro 7 */
+@media (max-width: 912px) {
+  .modhu .verse { font-size: 2rem; }
+}
+
+/* iPad Pro, Nest Hub */
+@media (max-width: 1024px) {
+  .modhu .verse { font-size: 2.2rem; }
+}
+
+/* Nest Hub Max */
+@media (max-width: 1280px) {
+  .modhu .verse { font-size: 2.3rem; }
+}
+
+/************ perfume-bd ***************/
+
+/* Base styling */
+.perfume-bd body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fefefe;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container that limits width */
+.perfume-bd .promo-container,
+.perfume-bd .video-section {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Promo Banner */
+.perfume-bd .promo-banner {
+  background-color: #000;
+  padding: 30px 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.perfume-bd .brand-logo {
+  max-width: 100px;
+  height: auto;
+}
+
+.perfume-bd .promo-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #ff4500;
+}
+
+/* Video Styling */
+.perfume-bd .video-wrapper {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 3px solid #fd7e14;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.perfume-bd .video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+/* Order Button */
+.perfume-bd .order-btn {
+  background-color: #fd7e14;
+  color: white;
+  font-weight: bold;
+  padding: 12px 30px;
+  border-radius: 50px;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.perfume-bd .order-btn:hover {
+  background-color: #e96b0d;
+}
+
+/* Black header sections */
+.perfume-bd .black-banner {
+  background-color: #000;
+  border-radius: 12px;
+  padding: 30px;
+}
+
+.perfume-bd .text-orange {
+  color: #fd7e14;
+}
+
+.perfume-bd .collage-img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Feature List */
+.perfume-bd .feature-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-weight: 600;
+}
+
+.perfume-bd .feature-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.perfume-bd .feature-list i {
+  font-size: 1.3rem;
+  margin-top: 2px;
+}
+
+/* Offer Card */
+.perfume-bd .offer-card {
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.perfume-bd .offer-card:hover {
+  transform: scale(1.02);
+}
+
+/* Pricing colors */
+.perfume-bd .text-success {
+  color: #198754 !important;
+}
+
+.perfume-bd .text-danger {
+  font-weight: bold;
+}
+
+.perfume-bd .btn-warning {
+  background-color: #fd7e14;
+  border: none;
+}
+
+.perfume-bd .btn-warning:hover {
+  background-color: #e96b0d;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  .perfume-bd .promo-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .perfume-bd .video-wrapper {
+    aspect-ratio: 1 / 1;
+  }
+
+  .perfume-bd .order-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  .perfume-bd .black-banner {
+    padding: 20px;
+  }
+
+  .perfume-bd .feature-list li {
+    font-size: 1rem;
+  }
+
+  .perfume-bd .feature-list i {
+    font-size: 1.1rem;
+  }
+}
+.perfume-bd .page-wrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*************** pitha ****************/
+
+.pitha body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #d1ebc7, #ffffff);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pitha .logo {
+    width: 80px;
+    margin-bottom: 1rem;
+  }
+  
+  .pitha .hero-title {
+    font-weight: 700;
+  }
+  
+  .pitha .hero-subtitle {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .pitha .btn-order {
+    background-color: #ff8000;
+    color: white;
+    padding: 10px 25px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .pitha .btn-order:hover {
+    background-color: #e06f00;
+  }
+  
+  .pitha .product-card {
+    border: 2px solid orange;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    height: 100%; /* Makes all cards same height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .pitha .product-img {
+    width: 100%;
+    height: 250px; /* Fixed height for uniform images */
+    object-fit: cover; /* Ensures consistent cropping */
+    display: block;
+  }
+  
+  .pitha .product-title {
+    font-size: 1rem;
+    color: green;
+    font-weight: 600;
+    padding: 1rem;
+    flex-grow: 1;
+  }
+  
+  .pitha .card-footer {
+    padding: 1rem;
+  }
+  .pitha .product-img{
+    width: 390px;
+    margin: 20px 10px;
+  }
+
+  .pitha .btn-orange {
+    background-color: #ff8000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .pitha .btn-orange:hover {
+    background-color: #e06f00;
+    color: #fff;
+  }
+  
+  .pitha .bg-light-green {
+    background-color: #eaffea;
+    border-radius: 0 0 6px 6px;
+  }
+  
+  .pitha .bg-gradient-green {
+    background: linear-gradient(to right, #a8d5a2, #cceabb);
+    color: #000;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .pitha .bg-gradient-green {
+    background: linear-gradient(to right, #a8d5a2, #cceabb);
+  }
+  
+  .pitha .btn-orange {
+    background-color: #ff8000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .pitha .btn-orange:hover {
+    background-color: #e06f00;
+    color: white;
+  }
+
+  /* Large Screens and Tablets (iPad Pro, Air, Mini, Surface Pro, Zenbook Fold, Nest Hub Max) */
+@media (max-width: 1200px) {
+  .pitha .product-img {
+    height: 220px;
+  }
+
+  .pitha .product-title {
+    font-size: 0.95rem;
+  }
+
+  .pitha .btn-order,
+  .pitha .btn-orange {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+/* Medium Devices (Pixel 7, iPhone 12 Pro, XR, Galaxy A51, S8+, Nest Hub) */
+/* iPads (Mini, Air, Pro) and tablets */
+@media (max-width: 991px) {
+  .pitha .product-card {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .pitha .product-img {
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    height: auto;
+    max-height: 240px;
+  }
+
+  .pitha .product-title {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .pitha .btn-order {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+}
+
+/* Small Devices (iPhone SE, iPhone 14 Pro Max, Galaxy S20 Ultra, Surface Duo) */
+@media (max-width: 768px) {
+  .pitha .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .pitha h2,
+  .pitha h4 {
+    font-size: 1.3rem;
+  }
+
+  .pitha .product-img {
+    height: 180px;
+  }
+
+  .pitha .product-title {
+    font-size: 0.85rem;
+  }
+
+  .pitha .btn-order,
+  .pitha .btn-orange {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .pitha .hero-section img {
+    width: 60px;
+  }
+}
+
+/* Extra Small Devices (iPhone SE landscape, Galaxy Z Fold folded view, narrow surfaces) */
+@media (max-width: 576px) {
+  .pitha h2,
+  .pitha h4 {
+    font-size: 1.1rem;
+  }
+
+  .pitha .product-img {
+    height: 160px;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .pitha .product-title {
+    font-size: 0.8rem;
+  }
+
+  .pitha .btn-order,
+  .pitha .btn-orange {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+  }
+
+  .pitha .logo {
+    width: 55px;
+  }
+}
+
+/* Foldables and Smart Displays (Galaxy Z Fold, Nest Hub, Nest Hub Max) */
+@media (max-width: 1024px) and (max-height: 600px) {
+  .pitha h2,
+  .pitha h4 {
+    font-size: 1.2rem;
+  }
+
+  .pitha .btn-order,
+  .pitha .btn-orange {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .pitha .product-img {
+    height: 170px;
+  }
+}
+@media (max-width: 576px) {
+  .pitha .product-img {
+    max-width: 90%;
+    margin: 15px auto;
+    padding: 0;
+  }
+}
+
+/* Smart Displays: Nest Hub (1024x600), Nest Hub Max (1280x800) */
+@media (max-width: 1280px) and (max-height: 800px) {
+  .pitha .product-card {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .pitha .product-img {
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    height: auto;
+    max-height: 240px;
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .pitha .product-title {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .pitha .btn-order {
+    font-size: 1rem;
+    padding: 10px 22px;
+  }
+}
+
+
+/********************polo-t-shirt *************/
+
+/* Basic styling */
+.polo-t-shirt .heading{
+  margin-top: 0;
+  text-align: center;
+  padding-top: 120px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.polo-t-shirt .product-card1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 1.3rem;
+}
+
+.polo-t-shirt .product-card1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+.polo-t-shirt .order-btn0,
+.polo-t-shirt .order-btn1,
+.polo-t-shirt .order-btn2 {
+  background-color: #002952;
+  color: white;
+  padding: 20px 50px;
+  font-size: 1.3rem;
+  margin-top: 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+}
+
+.polo-t-shirt .bluebox1,
+.polo-t-shirt .bluebox2,
+.polo-t-shirt .bluebox3,
+.polo-t-shirt .bluebox4 {
+  background-color: #002952;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 100px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.polo-t-shirt .bluebox4 {
+  padding: 40px;
+}
+
+.polo-t-shirt .price-cut {
+  margin-top: 0;
+  text-align: center;
+  padding-top: 120px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.polo-t-shirt .checklist-item {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.polo-t-shirt .checklist-item i {
+  color: #0d6efd;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.polo-t-shirt .banner {
+  background-color: #002d3e;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.polo-t-shirt .chat-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.polo-t-shirt .btn-phone1 {
+  background-color: white;
+  color: #002952;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.polo-t-shirt .graph {
+  padding: 30px 20px;
+  overflow-x: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.polo-t-shirt .graph img,
+.polo-t-shirt .graph canvas,
+.polo-t-shirt .graph svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Center all images in the assets folder */
+.polo-t-shirt img[src*="assets/"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Centered YouTube video preview */
+.polo-t-shirt .video-box {
+  width: 80%;
+  max-width: 500px;
+  margin: 50px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.polo-t-shirt .video-box iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  display: block;
+}
+
+/* Screenshot section layout */
+.polo-t-shirt .screenshot-box {
+  width: 100%;
+  margin: 40px auto;
+}
+
+.polo-t-shirt .screenshot-box .col {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Media Queries */
+
+/* Mobile */
+@media (max-width: 576px) {
+  .polo-t-shirt .heading {
+    font-size: 1.5rem;
+    padding-top: 60px;
+    margin-bottom: 50px;
+  }
+
+  .polo-t-shirt .product-card1 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+
+  .polo-t-shirt .bluebox1,
+  .polo-t-shirt .bluebox2,
+  .polo-t-shirt .bluebox3,
+  .polo-t-shirt .bluebox4 {
+    font-size: 1.1rem;
+    padding: 25px;
+    width: 90%;
+  }
+
+  .polo-t-shirt .video-box {
+    width: 90%;
+  }
+
+  .polo-t-shirt .price-cut {
+    font-size: 1.5rem;
+  }
+
+  .polo-t-shirt .order-btn0,
+  .polo-t-shirt .order-btn1,
+  .polo-t-shirt .order-btn2 {
+    font-size: 1rem;
+    padding: 15px 30px;
+  }
+
+  .polo-t-shirt .graph {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .polo-t-shirt .chat-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Tablet (Portrait, iPad Mini 768x1024) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .polo-t-shirt .product-card1 {
+    font-size: 1.4rem;
+    margin: 0 auto;
+    width: 85%;
+    padding: 15px;
+  }
+
+  .polo-t-shirt .container .row {
+    justify-content: center;
+  }
+
+  .polo-t-shirt .col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .polo-t-shirt .product-card1 img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .polo-t-shirt .checklist-item {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .polo-t-shirt .order-btn0,
+  .polo-t-shirt .order-btn1,
+  .polo-t-shirt .order-btn2 {
+    font-size: 1.2rem;
+    padding: 18px 40px;
+  }
+
+  .polo-t-shirt .bluebox1,
+  .polo-t-shirt .bluebox2,
+  .polo-t-shirt .bluebox3,
+  .polo-t-shirt .bluebox4 {
+    width: 90%;
+    padding: 25px;
+    font-size: 1.2rem;
+  }
+
+  .polo-t-shirt .video-box {
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  .polo-t-shirt .graph {
+    padding: 25px 15px;
+    width: 90%;
+  }
+
+  .polo-t-shirt .screenshot-box .col {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .polo-t-shirt .chat-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .polo-t-shirt .banner {
+    font-size: 18px;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+/* Larger devices */
+@media (min-width: 992px) {
+ .polo-t-shirt .chat-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .polo-t-shirt .screenshot-box .col {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+}
+
+////////////////* .safety-cover *////////////////////
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap');
+
+.safety-cover body {
+  font-family: 'Noto Sans Bengali', sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.safety-cover .logo-img {
+  max-width: 120px;
+  height: auto;
+}
+
+.safety-cover h2 {
+  font-size: 2.2rem;
+}
+
+.safety-cover .fs-5 {
+  font-size: 1.25rem;
+}
+
+.safety-cover .shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.safety-cover ul li i {
+  vertical-align: middle;
+  font-size: 1.2rem;
+}
+
+.safety-cover .btn-danger {
+  background-color: #e91e63;
+  border-color: #e91e63;
+}
+
+.safety-cover .btn-danger:hover {
+  background-color: #c2185b;
+  border-color: #c2185b;
+}
+
+.safety-cover .btn-outline-danger {
+  border-color: #e91e63;
+  color: #e91e63;
+}
+
+.safety-cover .btn-outline-danger:hover {
+  background-color: #e91e63;
+  color: white;
+}
+
+.safety-cover section {
+  font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+.safety-cover .offer-price-color {
+  color: #e6007e;
+}
+
+.safety-cover .final-section {
+  background-color: #ffe5f0;
+}
+
+.safety-cover .btn-facebook {
+  background-color: #fff;
+  border: 2px solid #1877f2;
+  color: #1877f2;
+  border-radius: 5px;
+}
+
+.safety-cover .btn-facebook:hover {
+  background-color: #1877f2;
+  color: white;
+}
+
+.safety-cover .btn-whatsapp {
+  background-color: #fff;
+  border: 2px solid #25d366;
+  color: #25d366;
+  border-radius: 5px;
+}
+
+.safety-cover .btn-whatsapp:hover {
+  background-color: #25d366;
+  color: white;
+}
+
+.safety-cover .btn-order {
+  background-color: #e6007e;
+  border: 2px solid #e6007e;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.safety-cover .btn-order:hover {
+  background-color: #c2185b;
+  border-color: #c2185b;
+}
+
+.safety-cover .final-section ul li i {
+  font-size: 1.3rem;
+  vertical-align: middle;
+}
+
+.safety-cover .why-list {
+  margin: 0 auto;
+  text-align: left;
+  max-width: 500px;
+  padding-left: 1rem;
+}
+
+@media (max-width: 576px) {
+ .safety-cover .btn-facebook,
+ .safety-cover .btn-whatsapp,
+ .safety-cover .btn-order {
+    width: 100%;
+  }
+
+  .safety-cover .final-section ul {
+    padding-left: 1rem;
+  }
+}
+
+////////////////////* wallet *////////////////////
+
+.wallet body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f5f7;
+  margin: 0;
+  padding: 0;
+}
+
+.wallet .custom-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+.wallet .logo {
+  max-width: 120px;
+  height: auto;
+}
+
+.wallet .display-6 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.wallet .btn-primary {
+  background-color: #2f455a;
+  border: none;
+  padding: 20px;
+}
+
+.wallet .quality-banner {
+  background-color: #2f455a;
+  border-radius: 12px;
+  max-width: 800px;
+  margin-bottom: 50px;
+}
+
+.wallet .quality-banner p {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.wallet .call-now-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+  color: #2f455a;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 1000;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.wallet .call-now-btn:hover {
+  background-color: #2f455a;
+  color: white;
+}
+
+.wallet .quality-box {
+  background-color: #2f455a;
+  border-radius: 16px;
+  max-width: 900px;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.wallet .section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.wallet .section-heading {
+  background-color: #2f455a;
+  color: white;
+  border-radius: 6px;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.wallet .section-heading h5 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.wallet img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wallet .call-box {
+  background-color: #2f455a;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.wallet .call-now {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: white;
+  color: #2f455a;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+}
+
+/* Utility Classes */
+.wallet .max-700 {
+  max-width: 700px;
+}
+
+.wallet .max-750 {
+  max-width: 750px;
+}
+
+.wallet .max-800 {
+  max-width: 800px;
+}
+
+.wallet .max-900 {
+  max-width: 900px;
+}
+
+.wallet .max-300 {
+  max-width: 300px;
+}
+
+/* === Responsive Media Queries === */
+
+/* Small Devices (Phones, up to 576px) */
+@media (max-width: 576px) {
+  .wallet .display-6 {
+    font-size: 1.4rem;
+  }
+
+  .wallet .btn-primary {
+    padding: 12px;
+    font-size: 0.9rem;
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .wallet .quality-banner p {
+    font-size: 1rem;
+  }
+
+  .wallet .quality-box,
+  .wallet .section-heading,
+ .wallet ul.text-start.mx-auto.max-700,
+ .wallet .call-box {
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+    width: auto !important;
+  }
+
+  .wallet .quality-box {
+    font-size: 1.2rem;
+    padding: 1.5rem;
+  }
+
+  .wallet .section-heading {
+    padding: 1.5rem;
+  }
+
+  .wallet .section-heading h5 {
+    font-size: 1.4rem;
+  }
+
+  .wallet ul.text-start.mx-auto.max-700 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .wallet .call-box {
+    padding: 1rem;
+  }
+
+  .wallet .call-box h4 {
+    font-size: 1.3rem;
+  }
+
+  .wallet .call-box .d-inline-flex {
+    font-size: 0.95rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .wallet .row.g-4 > [class*='col-'] {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Medium Devices (Tablets, 577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .wallet .display-6 {
+    font-size: 1.6rem;
+  }
+
+  .wallet .btn-primary {
+    padding: 16px;
+    font-size: 1rem;
+  }
+
+  .wallet .quality-box {
+    margin:10px 10px !important;
+    font-size: 1.4rem;
+  }
+
+  .wallet .section-heading h5 {
+    font-size: 1.6rem;
+  }
+
+  .wallet .call-box h4 {
+    font-size: 1.5rem;
+  }
+
+  .wallet .row.g-4 > [class*='col-'] {
+    margin-bottom: 1.5rem;
+  }
+}
+
+///////////////////* khejur-gur */////////////////////
+
+/* General Body Styling */
+.khejurgur body{
+  font-family: "Noto Sans Bengali", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.khejurgur html {
+  overflow-x: hidden;
+}
+
+/* Top Section */
+.khejurgur .top {
+  background-color: #52a423;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  clip-path: ellipse(70% 110% at center -10%);
+}
+
+.khejurgur .top img {
+  width: 100px;
+  height: auto;
+}
+
+.khejurgur .order-button {
+  background-color: #ff5c1b;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  margin-top: 25px;
+  max-width: 90%;
+  text-align: center;
+}
+
+/* Product Image Section */
+.khejurgur .product-image {
+  width: 60%;
+  margin: 20px auto;
+  border: 3px solid #52a423;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.khejurgur .product-image img {
+  width: 100%;
+  display: block;
+}
+
+/* CTA Buttons */
+.khejurgur .cta-btn, 
+.khejurgur .cta-btn1, 
+.khejurgur .cta-btn2, 
+.khejurgur .cta-btn3 {
+  background-color: #ff5c1b;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  margin-top: 25px;
+  width: 100%;
+  max-width: 320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Special Style for .middle .cta-btn2 */
+.khejurgur .middle .cta-btn2 {
+  background-color: #ff5a1f;
+  font-size: 1.1rem;
+}
+
+/* Checklist Icons */
+.khejurgur .checklist {
+  color: black;
+}
+
+.khejurgur .bi {
+  color: #52a423;
+}
+
+/* Dividers */
+.khejurgur .middle .divider, 
+.khejurgur .middle .divider1 {
+  background-color: white;
+  margin: 10px auto 30px;
+}
+
+.khejurgur .middle .divider {
+  width: 100px;
+  height: 3px;
+}
+
+.khejurgur .middle .divider1 {
+  width: 600px;
+  height: 1px;
+}
+
+/* Middle Section Styling */
+.khejurgur .middle {
+  background-color: #52a423;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+}
+
+.khejurgur .middle h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Last Section */
+.khejurgur .last {
+  background-color: #52a423;
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.khejurgur .last h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Price Cards */
+.khejurgur .price-card {
+  border: 2px solid orange;
+  border-radius: 8px;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  padding: 20px;
+}
+
+.khejurgur .price-card h4 {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.khejurgur .price-card .highlight {
+  color: #ff5722;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.price-card .small-text {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .khejurgur .top, 
+  .khejurgur .middle, 
+  .khejurgur .last {
+    padding: 40px 20px;
+  }
+
+  .khejurgur .product-image {
+    width: 80%;
+  }
+
+  .khejurgur .cta-btn, 
+  .khejurgur .cta-btn1, 
+  .khejurgur .cta-btn2, 
+  .khejurgur .cta-btn3 {
+    padding: 10px 20px;
+  }
+
+  .khejurgur .order-button {
+    padding: 10px 20px;
+  }
+
+  .khejurgur .top img {
+    width: 80px;
+  }
+
+  .khejurgur .price-card {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+  }
+
+  .khejurgur .middle .divider1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .khejurgur .top, 
+  .khejurgur .middle, 
+  .khejurgur .last {
+    padding: 30px 10px;
+  }
+
+  .khejurgur .top img {
+    width: 60px;
+  }
+
+  .khejurgur .product-image {
+    width: 90%;
+  }
+
+  .khejurgur .cta-btn, 
+  .khejurgur .cta-btn1, 
+  .khejurgur .cta-btn2, 
+  .khejurgur .cta-btn3, 
+  .khejurgur .order-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .khejurgur .price-card h4 {
+    font-size: 18px;
+  }
+
+  .khejurgur .price-card .highlight {
+    font-size: 20px;
+  }
+
+  .khejurgur .small-text {
+    font-size: 12px;
+  }
+
+  .khejurgur .middle .cta-btn2 {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .khejurgur .top, 
+  .khejurgur .middle, 
+  .khejurgur .last {
+    padding: 20px 10px;
+  }
+
+  .khejurgur .top img {
+    width: 50px;
+  }
+
+  .khejurgur .product-image {
+    width: 100%;
+  }
+
+  .khejurgur .cta-btn, 
+  .khejurgur .cta-btn1, 
+  .khejurgur .cta-btn2, 
+  .khejurgur .cta-btn3,
+  .khejurgur .order-button {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+
+  .khejurgur .price-card h4 {
+    font-size: 16px;
+  }
+
+  .khejurgur .price-card .highlight {
+    font-size: 18px;
+  }
+
+  .khejurgur .price-card {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .khejurgur .small-text {
+    font-size: 10px;
+  }
+}
+.khejurgur .cta-section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+
+  
+  

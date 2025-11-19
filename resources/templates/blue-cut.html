@@ -1,0 +1,122 @@
+
+<body>
+<div class="blue-cut">
+  <section class="promo-section text-center text-white d-flex align-items-center">
+    <div class="container">
+      <div class="row justify-content-center mb-4">
+        <!-- Countdown Boxes -->
+        <div class="col-3 col-md-2">
+          <div class="timer-box">
+            <div class="time">00</div>
+            <div class="label">Days</div>
+          </div>
+        </div>
+        <div class="col-3 col-md-2">
+          <div class="timer-box">
+            <div class="time">00</div>
+            <div class="label">Hours</div>
+          </div>
+        </div>
+        <div class="col-3 col-md-2">
+          <div class="timer-box">
+            <div class="time">00</div>
+            <div class="label">Minutes</div>
+          </div>
+        </div>
+        <div class="col-3 col-md-2">
+          <div class="timer-box">
+            <div class="time">00</div>
+            <div class="label">Seconds</div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="display-5 fw-bold text-highlight mb-3">
+        চোখের সুরক্ষায় ব্লু-কাট চশমার<br>বিকল্প আর কিছু নেই!
+      </h2>
+      <p class="fs-5 mb-2 fw-semibold">
+        আমরা দিচ্ছি এ গ্রেড এর অরিজিনাল আই প্রো ব্র্যান্ডের ব্লু-কাট<br>
+        গ্লাসা সাথে প্রিমিয়াম ফ্রেম।
+      </p>
+      <p class="fs-5 fw-bold mt-4 text-warning">
+        *স্টক শেষ হওয়ার আগে এখনি অর্ডার করুন*
+      </p>
+    </div>
+  </section>
+
+  <!-- YouTube Video Section -->
+  <section class="video-section py-4">
+    <div class="container d-flex justify-content-center">
+      <div class="ratio ratio-16x9" style="max-width: 800px;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SdoquBK0ceQ?si=L8iZA4ZTJ2mFdfMt" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+  
+<section class="ordr-btn  my-4">
+  <a href="#order" class="btn btn-success btn-lg fw-bold px-4 py-2">অর্ডার করুন</a>
+</section>
+
+<!-- Package List Section -->
+<section class="package-section py-4 bg-white text-center">
+  <div class="container">
+    <h3 class="fw-bold mb-4">
+      আমাদের <span class="text-primary">প্যাকেজে</span> যা পাচ্ছেনঃ
+    </h3>
+    <ul class="list-unstyled text-start mx-auto" style="max-width: 600px;">
+      <li class="mb-2"><i class="bi bi-patch-check-fill text-primary me-2"></i> অরিজিনাল আই-প্রো ব্রান্ড লেন্স</li>
+      <li class="mb-2"><i class="bi bi-patch-check-fill text-primary me-2"></i> প্রিমিয়াম লাইট-ওয়েট ফ্রেম</li>
+      <li class="mb-2"><i class="bi bi-patch-check-fill text-primary me-2"></i> একটি লেন্স ক্লিনার স্প্রে</li>
+      <li class="mb-2"><i class="bi bi-patch-check-fill text-primary me-2"></i> দুটি ক্লিনিং কটন</li>
+      <li class="mb-2"><i class="bi bi-patch-check-fill text-primary me-2"></i> লেন্সের টেস্টিং কিট</li>
+      <li class="mb-2"><i class="bi bi-patch-check-fill text-primary me-2"></i> একটি উন্নতমানের চশমা জিপার বক্স</li>
+    </ul>
+  </div>
+</section>
+
+<section class="offer-section text-white text-center">
+  <div class="container">
+    <p class="fw-bold mb-1 fs-2">রেগুলার প্রাইস <span class="text-warning text-decoration-line-through">১৫৫০</span> টাকা</p>
+    <h2 class="fw-bold display-5">
+      অফার প্রাইস মাত্র <span class="text-warning text-decoration-underline">৯৯০</span> টাকা
+    </h2>
+    <p class="mt-3 fs-6">ডেলিভারি চার্জ সারা বাংলাদেশে মাত্র ১০০ টাকা!</p>
+  </div>
+</section>
+
+<section class="text-center bg-primary text-white py-4 mt-3">
+  <h3 class="m-0 fs-10 fw-bold">ব্লু-কাট চশমার উপকারিতা</h3>
+</section>
+
+<section class="benefits-section py-4">
+  <div class="container text-center">
+    <div class="benefit-box mx-auto mb-3">
+      <p><span class="text-danger">মোবাইল</span> বা <span class="text-danger">কম্পিউটার</span> থেকে বের হওয়া ক্ষতিকর আলো থেকে চোখ থাকবেন শতভাগ সুরক্ষিত।</p>
+    </div>
+    <div class="benefit-box mx-auto mb-3">
+      <p><span class="text-danger">ঘনঘন মাথা ব্যাথা</span>, চোখ লাল হয়ে যাওয়া বা <span class="text-danger">চোখ দিয়ে পানি পড়া</span> থেকে সুরক্ষিত থাকবেন।</p>
+    </div>
+    <div class="benefit-box mx-auto mb-3">
+      <p>চশমা ব্যবহারের ফলে ব্লু-লাইট প্রতিরোধ হবে, যার কারণে <span class="text-danger">ঘুমের সমস্যা</span> কার্যকারী সমাধান পাবেন।</p>
+    </div>
+    <div class="benefit-box mx-auto mb-3">
+      <p>ব্লু-কাট চশমা আপনাকে দীর্ঘ মেয়াদী ক্ষতি থেকে বাঁচাবে।</p>
+    </div>
+    <div class="benefit-box mx-auto mb-3">
+      <p>ব্লু-কাট চশমা ব্যবহারে <span class="text-danger">চোখের ওপর চাপ</span> কমায়, যার কারণে আপনি শান্তি অনুভব করবেন।</p>
+    </div>
+    <div class="benefit-box mx-auto mb-4">
+      <p>ব্লু-কাট চশমা আপনার <span class="text-danger">দৃষ্টি-শক্তি</span> উন্নত করতে সহায়তা করে।</p>
+    </div>
+
+    </div>
+</section>
+
+<section class="ordr-btn  my-4">
+  <a href="#order" class="btn btn-success btn-lg fw-bold px-4 py-2">অর্ডার করুন</a>
+</section>
+</div>
+</body>
+

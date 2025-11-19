@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.promo-section {
+  background-color: #3498db;
+  min-height: 90vh;
+  padding: 20px 20px; 
+}
+
+
+
+.timer-box {
+  background-color: #fffb00;
+  color: #000;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.time {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.label {
+  font-size: 16px;
+}
+
+.text-highlight {
+  color: #f9e000;
+  font-size: 4rem;
+}
+
+.row.justify-content-center.mb-4 {
+  margin-top: -180px;
+}
+
+.package-section h3 {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.package-section ul li {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color:#474c52;
+}
+
+.offer-section {
+  background-color: #474c52;
+  padding: 30px 50px;
+}
+
+.offer-section h2{
+  font-size: 3.2rem;
+}
+
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
+.benefit-box {
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+.benefit-box p {
+  margin: 0;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.ordr-btn{
+    text-align: center;
+    padding: 20px;
+}
+.ordr-btn .btn {
+  font-size: 1.5rem;     
+  padding: 16px 40px;   
+  border-radius: 12px;  
+}
+/* Base responsiveness */
+@media (max-width: 1200px) {
+  .text-highlight {
+    font-size: 3rem;
+  }
+  .offer-section h2 {
+    font-size: 2.5rem;
+  }
+  .package-section ul li {
+    font-size: 1.2rem;
+  }
+  .benefit-box p {
+    font-size: 1.2rem;
+  }
+  .ordr-btn .btn {
+    font-size: 1.3rem;
+    padding: 14px 30px;
+  }
+}
+
+/* Tablets (iPad Mini, iPad Air, iPad Pro, Surface Pro 7) */
+@media (max-width: 991px) {
+  .text-highlight {
+    font-size: 2.6rem;
+  }
+  .offer-section h2 {
+    font-size: 2.2rem;
+  }
+  .package-section h3 {
+    font-size: 1.8rem;
+  }
+  .benefit-box p {
+    font-size: 1.1rem;
+  }
+  .ordr-btn .btn {
+    font-size: 1.2rem;
+    padding: 12px 28px;
+  }
+}
+
+/* Medium phones (Pixel 7, iPhone XR, Galaxy A51, Nest Hub Max, etc.) */
+@media (max-width: 768px) {
+  .text-highlight {
+    font-size: 2.2rem;
+  }
+  .offer-section h2 {
+    font-size: 2rem;
+  }
+  .package-section ul li {
+    font-size: 1rem;
+  }
+  .benefit-box p {
+    font-size: 1rem;
+  }
+  .ordr-btn .btn {
+    font-size: 1.1rem;
+    padding: 10px 24px;
+  }
+  .row.justify-content-center.mb-4 {
+    margin-top: -80px;
+  }
+}
+
+/* Small phones (iPhone SE, iPhone 12 Pro, Galaxy S8+, Surface Duo) */
+@media (max-width: 576px) {
+  .text-highlight {
+    font-size: 1.8rem;
+  }
+  .offer-section h2 {
+    font-size: 1.6rem;
+  }
+  .offer-section {
+    padding: 20px 20px;
+  }
+  .package-section h3 {
+    font-size: 1.5rem;
+  }
+  .package-section ul li {
+    font-size: 0.95rem;
+  }
+  .benefit-box p {
+    font-size: 0.95rem;
+  }
+  .ordr-btn .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  .timer-box {
+    padding: 6px;
+  }
+  .time {
+    font-size: 24px;
+  }
+  .label {
+    font-size: 12px;
+  }
+}
+
+/* Foldables (Galaxy Z Fold 5, Zenbook Fold) */
+@media (max-width: 480px) and (max-height: 800px) {
+  .text-highlight {
+    font-size: 1.7rem;
+  }
+  .benefit-box {
+    padding: 10px;
+  }
+  .ordr-btn .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+/* Smart Displays (Nest Hub, Nest Hub Max) */
+@media (max-width: 1024px) and (max-height: 600px) {
+  .text-highlight {
+    font-size: 2rem;
+  }
+  .ordr-btn .btn {
+    font-size: 1.1rem;
+  }
+}

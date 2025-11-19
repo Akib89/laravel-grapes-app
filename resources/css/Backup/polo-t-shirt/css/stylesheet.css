@@ -1,0 +1,301 @@
+/* Basic styling */
+.heading {
+  margin-top: 0;
+  text-align: center;
+  padding-top: 120px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.product-card1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 1.3rem;
+}
+
+.product-card1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+.order-btn0,
+.order-btn1,
+.order-btn2 {
+  background-color: #002952;
+  color: white;
+  padding: 20px 50px;
+  font-size: 1.3rem;
+  margin-top: 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+}
+
+.bluebox1,
+.bluebox2,
+.bluebox3,
+.bluebox4 {
+  background-color: #002952;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 100px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.bluebox4 {
+  padding: 40px;
+}
+
+.price-cut {
+  margin-top: 0;
+  text-align: center;
+  padding-top: 120px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.checklist-item {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.checklist-item i {
+  color: #0d6efd;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.banner {
+  background-color: #002d3e;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.chat-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn-phone1 {
+  background-color: white;
+  color: #002952;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.graph {
+  padding: 30px 20px;
+  overflow-x: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.graph img,
+.graph canvas,
+.graph svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Center all images in the assets folder */
+img[src*="assets/"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Centered YouTube video preview */
+.video-box {
+  width: 80%;
+  max-width: 500px;
+  margin: 50px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-box iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  display: block;
+}
+
+/* Screenshot section layout */
+.screenshot-box {
+  width: 100%;
+  margin: 40px auto;
+}
+
+.screenshot-box .col {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Media Queries */
+
+/* Mobile */
+@media (max-width: 576px) {
+  .heading {
+    font-size: 1.5rem;
+    padding-top: 60px;
+    margin-bottom: 50px;
+  }
+
+  .product-card1 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+
+  .bluebox1,
+  .bluebox2,
+  .bluebox3,
+  .bluebox4 {
+    font-size: 1.1rem;
+    padding: 25px;
+    width: 90%;
+  }
+
+  .video-box {
+    width: 90%;
+  }
+
+  .price-cut {
+    font-size: 1.5rem;
+  }
+
+  .order-btn0,
+  .order-btn1,
+  .order-btn2 {
+    font-size: 1rem;
+    padding: 15px 30px;
+  }
+
+  .graph {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .chat-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Tablet (Portrait, iPad Mini 768x1024) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .product-card1 {
+    font-size: 1.4rem;
+    margin: 0 auto;
+    width: 85%;
+    padding: 15px;
+  }
+
+  .container .row {
+    justify-content: center;
+  }
+
+  .col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .product-card1 img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .checklist-item {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .order-btn0,
+  .order-btn1,
+  .order-btn2 {
+    font-size: 1.2rem;
+    padding: 18px 40px;
+  }
+
+  .bluebox1,
+  .bluebox2,
+  .bluebox3,
+  .bluebox4 {
+    width: 90%;
+    padding: 25px;
+    font-size: 1.2rem;
+  }
+
+  .video-box {
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  .graph {
+    padding: 25px 15px;
+    width: 90%;
+  }
+
+  .screenshot-box .col {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .chat-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .banner {
+    font-size: 18px;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+/* Larger devices */
+@media (min-width: 992px) {
+  .chat-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .screenshot-box .col {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+}

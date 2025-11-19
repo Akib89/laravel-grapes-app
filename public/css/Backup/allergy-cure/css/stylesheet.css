@@ -1,0 +1,348 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url('../assets/_DSC9898.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 60px 1rem;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.hero-heading {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+}
+
+.brand-logo {
+  max-width: 120px;
+  text-align: center;
+}
+
+/* Offer Section */
+.offer-section,
+.offer-extended,
+.review-section {
+  background-color: #f8f9fa;
+  padding: 2rem 1rem;
+}
+
+.video-frame iframe {
+  border-radius: 10px;
+  border: 2px dotted white;
+  width: 100%;
+  height: auto;
+}
+
+.text-course,
+.line-through,
+.offer-price,
+.delivery-note {
+  font-weight: 800;
+  font-size: 2rem;
+  color: #198754;
+}
+
+.offer-price {
+  color: #212529;
+  margin-bottom: 0.5rem;
+}
+
+.offer-amount {
+  border-bottom: 2px solid #198754;
+  padding-bottom: 2px;
+}
+
+.offer-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.offer-description {
+  color: orangered;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.offer-description1 {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.btn-order {
+  background-color: #fd7e14;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.btn-order:hover {
+  background-color: #e96a06;
+}
+
+.reviews-section {
+  background-color: #fff;
+  padding: 2rem 1rem;
+}
+
+.section-title,
+.review-title {
+  color: #198754;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.review-section img {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 100%;
+  height: auto;
+}
+
+.review-section img:hover {
+  transform: scale(1.05);
+}
+
+/* Green Box Styles */
+.greenbox,
+.green-box {
+  background-color: green;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+  max-width: 800px;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+/* Footer */
+.green-footer {
+  background-color: green;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Refund Text */
+.refund-text {
+  color: #f7931e;
+  font-size: 1.25rem;
+  font-weight: 600;
+  max-width: 1000px;
+  text-align: center;
+  line-height: 2rem;
+  margin: 1rem auto;
+}
+
+/* Bordered Box */
+.border-orange {
+  border: 1px solid #fd7e14;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+/* Card Image */
+.card-img-top {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: 100%;
+  height: auto;
+}
+
+/* List Styles */
+.benefit-list,
+.ingredient-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.benefit-list li,
+.ingredient-list li {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.benefit-list i,
+.ingredient-list i {
+  color: green;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Background Utility */
+.bg-green {
+  background-color: green;
+}
+
+/* === Responsive Media Queries === */
+@media (max-width: 992px) {
+  .hero-heading {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+
+  .offer-description,
+  .offer-description1,
+  .refund-text {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+  .text-course,
+  .line-through,
+  .offer-price,
+  .delivery-note {
+    font-size: 1.6rem;
+  }
+
+  .brand-logo {
+    max-width: 100px;
+  }
+
+  .btn-order {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.95rem;
+  }
+
+  .benefit-list li,
+  .ingredient-list li {
+    font-size: 0.95rem;
+  }
+
+  .greenbox,
+  .green-box,
+  .refund-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .hero-heading {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .text-course,
+  .line-through,
+  .offer-price,
+  .delivery-note {
+    font-size: 1.5rem;
+  }
+
+  .brand-logo {
+    max-width: 90px;
+  }
+
+  .btn-order {
+    font-size: 0.95rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  .offer-description,
+  .offer-description1,
+  .refund-text {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .greenbox,
+  .green-box {
+    padding: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .video-frame iframe {
+    height: 300px;
+  }
+
+  .benefit-list li,
+  .ingredient-list li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-heading {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+
+  .text-course,
+  .line-through,
+  .offer-price,
+  .delivery-note {
+    font-size: 1.3rem;
+  }
+
+  .brand-logo {
+    max-width: 80px;
+  }
+
+  .btn-order {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    width: 80%;
+  }
+
+  .benefit-list li,
+  .ingredient-list li {
+    font-size: 0.9rem;
+    flex-direction: row;
+  }
+
+  .offer-description,
+  .offer-description1,
+  .refund-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .greenbox,
+  .green-box {
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .video-frame iframe {
+    height: 200px;
+  }
+}
