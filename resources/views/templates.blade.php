@@ -194,7 +194,7 @@
       </a>
       <a href="#"
    class="btn btn-primary btn-sm custom-link"
-   data-url="{{ route('builder', ['slug' => 'khejur-gur']) }}">
+   data-url="{{ route('builder', ['slug' => '3-piece']) }}">
    <i class="bi bi-tools"></i> Customize
 </a>
 
@@ -214,7 +214,7 @@
       </a>
      <a href="#"
    class="btn btn-primary btn-sm custom-link"
-   data-url="{{ route('builder', ['slug' => 'khejur-gur']) }}">
+   data-url="{{ route('builder', ['slug' => 'allergy-cure']) }}">
    <i class="bi bi-tools"></i> Customize
 </a>
 
@@ -234,7 +234,7 @@
       </a>
       <a href="#"
    class="btn btn-primary btn-sm custom-link"
-   data-url="{{ route('builder', ['slug' => 'khejur-gur']) }}">
+   data-url="{{ route('builder', ['slug' => 'blue-cut']) }}">
    <i class="bi bi-tools"></i> Customize
 </a>
 
@@ -254,7 +254,7 @@
       </a>
       <a href="#"
    class="btn btn-primary btn-sm custom-link"
-   data-url="{{ route('builder', ['slug' => 'khejur-gur']) }}">
+   data-url="{{ route('builder', ['slug' => 'combo-pack']) }}">
    <i class="bi bi-tools"></i> Customize
 </a>
 
@@ -274,7 +274,7 @@
       </a>
       <a href="#"
    class="btn btn-primary btn-sm custom-link"
-   data-url="{{ route('builder', ['slug' => 'khejur-gur']) }}">
+   data-url="{{ route('builder', ['slug' => 'jacket']) }}">
    <i class="bi bi-tools"></i> Customize
 </a>
 
@@ -294,7 +294,7 @@
       </a>
       <a href="#"
    class="btn btn-primary btn-sm custom-link"
-   data-url="{{ route('builder', ['slug' => 'khejur-gur']) }}">
+   data-url="{{ route('builder', ['slug' => 'juta']) }}">
    <i class="bi bi-tools"></i> Customize
 </a>
 
@@ -314,7 +314,7 @@
       </a>
       <a href="#"
    class="btn btn-primary btn-sm custom-link"
-   data-url="{{ route('builder', ['slug' => 'khejur-gur']) }}">
+   data-url="{{ route('builder', ['slug' => 'ladies-hand-bag']) }}">
    <i class="bi bi-tools"></i> Customize
 </a>
 
@@ -334,7 +334,7 @@
       </a>
       <a href="#"
    class="btn btn-primary btn-sm custom-link"
-   data-url="{{ route('builder', ['slug' => 'khejur-gur']) }}">
+   data-url="{{ route('builder', ['slug' => 'modhu']) }}">
    <i class="bi bi-tools"></i> Customize
 </a>
 
@@ -354,7 +354,7 @@
       </a>
       <a href="#"
    class="btn btn-primary btn-sm custom-link"
-   data-url="{{ route('builder', ['slug' => 'khejur-gur']) }}">
+   data-url="{{ route('builder', ['slug' => 'perfume-bd']) }}">
    <i class="bi bi-tools"></i> Customize
 </a>
 
@@ -375,7 +375,7 @@
       </a>
      <a href="#"
    class="btn btn-primary btn-sm custom-link"
-   data-url="{{ route('builder', ['slug' => 'khejur-gur']) }}">
+   data-url="{{ route('builder', ['slug' => 'pitha']) }}">
    <i class="bi bi-tools"></i> Customize
 </a>
 
@@ -395,7 +395,7 @@
       </a>
       <a href="#"
    class="btn btn-primary btn-sm custom-link"
-   data-url="{{ route('builder', ['slug' => 'khejur-gur']) }}">
+   data-url="{{ route('builder', ['slug' => 'polo-t-shirt']) }}">
    <i class="bi bi-tools"></i> Customize
 </a>
 
@@ -415,7 +415,7 @@
       </a>
       <a href="#"
    class="btn btn-primary btn-sm custom-link"
-   data-url="{{ route('builder', ['slug' => 'khejur-gur']) }}">
+   data-url="{{ route('builder', ['slug' => 'safety-cover']) }}">
    <i class="bi bi-tools"></i> Customize
 </a>
 
@@ -435,7 +435,7 @@
       </a>
       <a href="#"
    class="btn btn-primary btn-sm custom-link"
-   data-url="{{ route('builder', ['slug' => 'khejur-gur']) }}">
+   data-url="{{ route('builder', ['slug' => 'wallet']) }}">
    <i class="bi bi-tools"></i> Customize
 </a>
 
@@ -455,7 +455,7 @@
       </a>
       <a href="#"
    class="btn btn-primary btn-sm custom-link"
-   data-url="{{ route('builder', ['slug' => 'khejur-gur']) }}">
+   data-url="{{ route('builder', ['slug' => 'headphones']) }}">
    <i class="bi bi-tools"></i> Customize
 </a>
 

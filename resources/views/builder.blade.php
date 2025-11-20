@@ -93,7 +93,6 @@
         styles: [
           "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
           "{{ asset('css/stylesheet.css') }}",
-,
         ],
         scripts: [
           "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js",
@@ -134,13 +133,7 @@
         placeholders.forEach((p) => p.remove());
       }
     });
-editor.Panels.addButton("options", [{
-  id: "save-db",
-  className: "fa fa-floppy-o",
-  label: "Save",
-  command: "save-to-session",
-  attributes: { title: "Save to Session" }
-}]);
+
     // Save command (still calling your existing PHP endpoint)
     editor.Commands.add("save-to-session", {
       run(editor, sender) {
@@ -360,6 +353,25 @@ editor.Panels.addButton("options", [{
     // On load
     editor.on("load", () => {
       editor.Panels.getButton("views", "open-blocks").set("active", true);
+
+      // 🔽 Add SAVE button under the blocks panel (below "Icon")
+      const blockContainer = editor.BlockManager.getContainer();
+      if (blockContainer) {
+        const saveBtn = document.createElement('button');
+        saveBtn.innerHTML = "Apply";
+        saveBtn.className = "gjs-btn gjs-btn-save";
+        saveBtn.style.display = "block";
+        saveBtn.style.width = "100%";
+        saveBtn.style.margin = "10px 0";
+        saveBtn.style.padding = "8px";
+        saveBtn.style.border = "none";
+        saveBtn.style.background = "#6c5ce7";
+        saveBtn.style.color = "#fff";
+        saveBtn.style.cursor = "pointer";
+        saveBtn.onclick = () => editor.runCommand("save-to-session");
+
+        blockContainer.appendChild(saveBtn);
+      }
 
       @if (!empty($htmlBody))
         editor.setComponents(`{!! $htmlBody !!}`);

@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Session;
 
 class BuilderController extends Controller
 {
@@ -40,19 +39,18 @@ class BuilderController extends Controller
             return redirect()->route('templates');
         }
 
+        // 🔥 ALWAYS load the file for this slug
         $htmlBody = '';
+        $htmlFile = resource_path("templates/{$slug}.php");
 
-        // Only load from file if UID is new / changed
-        if (!Session::has('UID') || Session::get('UID') !== $uid) {
-            // move your HTML templates to: resources/templates/{slug}.html
-            $htmlFile = resource_path("templates/{$slug}.html");
-
-            if (file_exists($htmlFile)) {
-                $htmlBody = file_get_contents($htmlFile);
-            }
-
-            Session::put('UID', $uid);
+        if (file_exists($htmlFile)) {
+            ob_start();
+            include $htmlFile; // PHP runs, asset() resolved
+            $htmlBody = ob_get_clean();
         }
+
+        // you *can* keep UID if you want for autosave logic, but don't gate loading on it
+        // Session::put('UID', $uid);
 
         return view('builder', [
             'slug'     => $slug,
