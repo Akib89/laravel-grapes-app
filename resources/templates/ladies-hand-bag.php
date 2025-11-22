@@ -1,0 +1,239 @@
+
+  <body>
+  <div class="ladieshandbag">
+
+<div class="header">
+
+<!--Content before waves-->
+<div class="inner-header flex">
+<!--Just the logo.. Don't mind this-->
+
+ <section class="hero-leather">
+      <img
+        src="/storage/images/ladies-hand-bag/Letter-A-Logo-With-Business-and-Arrow-Concept.-128-x-128-px-128-x-128-px3-2048x2048 (1).png"
+        alt="Logo"
+      />
+      <h2>সফট লেদার লেডিস ব্যাগ</h2>
+      <p>
+        অরিজিনাল নমন চামড়ার ডিজাইনার হাই-কোয়ালিটি শোল্ডার হ্যান্ডব্যাগ –
+        নারীদের জন্য ক্যাজুয়াল ক্রসবডি ব্যাগ!
+      </p>
+      <p>
+        <strong>Elevate your style with our Soft Leather Ladies’ Bag.</strong>
+        Crafted from premium leather, it’s a perfect blend of fashion and
+        comfort for modern women.
+      </p>
+      <a href="#" class="btn btn-light">অর্ডার করতে চাই</a>
+
+      
+    </section>
+</div>
+
+<!--Waves Container-->
+<div>
+<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+<defs>
+<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+</defs>
+<g>
+  <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
+  <use xlink:href="#gentle-wave" x="48" y="2" fill="rgba(255,255,255,0.5)" />
+  <use xlink:href="#gentle-wave" x="48" y="4" fill="rgba(255,255,255,0.3)" />
+  <use xlink:href="#gentle-wave" x="48" y="8" fill="#fff" />
+</g>
+</svg>
+</div>
+<!--Waves end-->
+
+</div>
+<!--Header ends-->
+
+
+    <section class="py-5 text-center">
+      <div class="video-wrapper mb-4 mx-auto">
+  <div class="video-border">
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/TNimV5PgyLI?si=r8vawcHp1342-ehj"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen></iframe>
+  </div>
+</div>
+
+
+        <!-- Description Text -->
+        <p class="video-description">
+          এই সফট লেদার ল্যাক্সারি হ্যান্ডব্যাগটি মানজ্যাতা এবং ব্যবহারিকতার এক
+          অনন্য মিশ্রণ, যা আজকের সক্রিয় নারীর জন্য তৈরি। এতে রয়েছে প্রশস্ত
+          অভ্যন্তরীণ স্পেস, নিরাপদ জিপার পকেট এবং অতিরিক্ত বাইরের স্লিপ পকেট।
+          নমনতা এবং টেকসইতার এই মিশ্রণটি এটিকে প্রতিদিনের ব্যবহারের জন্য আদর্শ
+          একটি আনুষঙ্গিক করে তোলে।
+        </p>
+</div>
+    
+        <!-- Call-to-Action Button -->    
+         <a href="#" class="btn-purple">অর্ডার করতে চাই</a>
+        </section>
+      
+
+
+    <section class="feature-section">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <!-- Carousel -->
+          <div class="col-lg-6">
+            <div
+              id="bagCarousel"
+              class="carousel slide carousel-border"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="/storage/images/ladies-hand-bag/item_658_1703875880.webp"
+                    alt="Bag Image 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/storage/images/ladies-hand-bag/item_656_1703875858.webp"
+                    alt="Bag Image 2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/storage/images/ladies-hand-bag/item_748_1703875869.webp"
+                    alt="Bag Image 3"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#bagCarousel"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#bagCarousel"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Features -->
+          <div class="col-lg-6 feature-box">
+            <h5>গ্রাহক চাহিদার শীর্ষে থাকা এই ব্যাগ এর বৈশিষ্ট্য:</h5>
+            <ul>
+              <li>
+                <i class="fas fa-check-double"></i> আকারঃ ২৭ সেমি x ৩২ সেমি x ২০
+                সেমি
+              </li>
+              <li>
+                <i class="fas fa-check-double"></i> সহজ খোলা এবং বন্ধ করার জন্য
+                ম্যাগনেটিক বাকল ব্যবহার করা হয়েছে।
+              </li>
+              <li>
+                <i class="fas fa-check-double"></i> প্রিমিয়াম লেদার দিয়ে তৈরি,
+                নমন এবং আরামদায়ক।
+              </li>
+              <li>
+                <i class="fas fa-check-double"></i> টেকসই হাই কোয়ালিটি
+                ফ্যাব্রিকের আভ্যন্তরীণ ব্যবহার করা হয়েছে।
+              </li>
+              <li>
+                <i class="fas fa-check-double"></i> ফ্যাশন শিল্পের শীর্ষ রেটেড
+                পণ্য, উচ্চ-মানের পণ্য এবং অসাধারণ গ্রাহক সেবা প্রদানে
+                অঙ্গীকারবদ্ধ।
+              </li>
+            </ul>
+            <a href="#" class="btn-purple">অর্ডার করতে চাই</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="procard py-5">
+      <div class="container">
+        <div class="row g-4 justify-content-center">
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="product-card">
+              <h5>Luxury Bags for Women</h5>
+              <img src="/storage/images/ladies-hand-bag/item_450_1703877025.webp" alt="Black Bag" />
+              <div class="price">২৫০০ টাকা</div>
+              <div class="delivery-note">ডেলিভারি চার্জ সম্পূর্ণ ফ্রি</div>
+              <button class="btn btn-order">অর্ডার করতে চাই</button>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-4">
+            <div class="product-card">
+              <h5>Luxury Bags for Women</h5>
+              <img src="/storage/images/ladies-hand-bag/item_656_1703875858 (1).webp" alt="Red Bag" />
+              <div class="price">২৫০০ টাকা</div>
+              <div class="delivery-note">ডেলিভারি চার্জ সম্পূর্ণ ফ্রি</div>
+              <button class="btn btn-order">অর্ডার করতে চাই</button>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="product-card">
+              <h5>Luxury Bags for Women</h5>
+              <img src="/storage/images/ladies-hand-bag/item_658_1703875880.webp" alt="Green Bag" />
+              <div class="price">২৫০০ টাকা</div>
+              <div class="delivery-note">ডেলিভারি চার্জ সম্পূর্ণ ফ্রি</div>
+              <button class="btn btn-order">অর্ডার করতে চাই</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reason-section text-center">
+      <div class="container">
+        <h2 class="reason-header">আপনি কেন কিনবেন, কারণসমূহ:</h2>
+        <ul class="reason-list text-start mx-auto" style="max-width: 900px">
+          <li>
+            <i class="fas fa-check-double"></i> বহুমুখীতাঃ কোনাকাটা, কাজ, এবং
+            ভ্রমণ সহ বিভিন্ন ধরনের কার্যক্রমের জন্য আদর্শ। বিশেষ অনুষ্ঠানের জন্য
+            প্রিয়জনদের জন্য উপযুক্ত উপহার।
+          </li>
+          <li>
+            <i class="fas fa-check-double"></i> সহজ রক্ষণাবেক্ষণঃ সহজ পরিষ্কারের
+            প্রক্রিয়া - নরম কাপড় দিয়ে মুছে নিন অথবা হালকা ডিটারজেন্ট দিয়ে
+            ধুয়ে শুকিয়ে নিন।
+          </li>
+          <li>
+            <i class="fas fa-check-double"></i> সহজে নষ্ট হয় না, অনেক দিন
+            ব্যবহার করা যায়।
+          </li>
+          <li>
+            <i class="fas fa-check-double"></i> প্রিমিয়াম লেদার দিয়ে তৈরি, নমন
+            এবং আরামদায়ক।
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Call Section -->
+    <section class="call-section">
+      <h3>প্রয়োজনে কল করুন</h3>
+      <a href="tel:00000000000" class="call-btn"
+        ><i class="fas fa-phone"></i> ০০০০০০০০০০০</a
+      ><br />
+      <a href="https://wa.me/00000000000" class="call-btn"
+        ><i class="fab fa-whatsapp"></i> ০০০০০০০০০০০</a
+      >
+    </section>
+</div>
+   </body>

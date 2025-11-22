@@ -1,0 +1,178 @@
+
+<body>
+<div class="wallet">
+  <div class="custom-container">
+
+    <!-- Logo -->
+    <section class="text-center my-4">
+      <img src="/storage/images/wallet/Brand-Logo-1.png" alt="Brand Logo" class="logo mb-2">
+    </section>
+
+    <!-- Heading -->
+    <section class="w-100 d-flex justify-content-center px-3">
+      <div class="text-center max-700">
+        <h4 class="fw-bold display-6 mb-3">
+          লেডিস ব্যাগ ও ম্যানস ওয়ালেট -এর সীমিত সময়ের অফার
+        </h4>
+      </div>
+    </section>
+
+    <!-- Product Images -->
+    <section class="container text-center my-4">
+      <div class="row justify-content-center g-4">
+        <div class="col-md-4 col-sm-6">
+          <img src="/storage/images/wallet/3.jpg" alt="Wallet 1" class="img-fluid shadow rounded">
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <img src="/storage/images/wallet/4.jpg" alt="Wallet 2" class="img-fluid shadow rounded">
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <img src="/storage/images/wallet/6.jpg" alt="Wallet 3" class="img-fluid shadow rounded">
+        </div>
+      </div>
+    </section>
+
+    <!-- Order Button -->
+    <section class="text-center my-4">
+      <button class="btn btn-primary fw-bold">অর্ডার করতে চাই</button>
+    </section>
+
+  </div>
+
+  <div class="container py-4">
+
+    <!-- Quality Banner -->
+    <section class="text-center mb-4">
+      <div class="quality-banner mx-auto px-4 py-3">
+        <p class="mb-0">
+          কোয়ালিটি প্রোডাক্ট কখনো সস্তায় পাওয়া যায় না তবুও আমরা এই মূল্যে দিচ্ছি সর্বোচ্চ কোয়ালিটি
+        </p>
+      </div>
+    </section>
+
+    <!-- Section Heading -->
+    <section class="text-center mb-5">
+      <h4 class="fw-bold text-dark">এক নজরে সকল ম্যানস ওয়ালেট</h4>
+    </section>
+
+    <!-- Product Cards -->
+    <section class="row g-4 justify-content-center text-center">
+      <!-- Card 1 -->
+      <div class="col-lg-4 col-md-6">
+        <img src="/storage/images/wallet/3.jpg" alt="Wallet 1" class="img-fluid rounded shadow-sm mb-3">
+        <h5 class="fw-bold text-dark">ম্যানস ওয়ালেট<br><small class="fw-semibold">কোডঃ M-101</small></h5>
+        <ul class="text-start mx-auto max-300">
+          <li>Size: 12 cm x 10 cm</li>
+          <li>Color: Black</li>
+          <li>1-year Quality Warranty</li>
+        </ul>
+        <section class="text-center my-4">
+          <button class="btn btn-primary px-4 py-2 fw-bold">অর্ডার করতে চাই</button>
+        </section>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-4 col-md-6">
+        <img src="/storage/images/wallet/4.jpg" alt="Wallet 2" class="img-fluid rounded shadow-sm mb-3">
+        <h5 class="fw-bold text-dark">ম্যানস ওয়ালেট<br><small class="fw-semibold">কোডঃ M-202</small></h5>
+        <ul class="text-start mx-auto max-300">
+          <li>Size: 12 cm x 10 cm</li>
+          <li>Color: Black</li>
+          <li>1-year Quality Warranty</li>
+        </ul>
+        <section class="text-center my-4">
+          <button class="btn btn-primary px-4 py-2 fw-bold">অর্ডার করতে চাই</button>
+        </section>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-4 col-md-6">
+        <img src="/storage/images/wallet/6.jpg" alt="Wallet 3" class="img-fluid rounded shadow-sm mb-3">
+        <h5 class="fw-bold text-dark">ম্যানস ওয়ালেট<br><small class="fw-semibold">কোডঃ M-303</small></h5>
+        <ul class="text-start mx-auto max-300">
+          <li>Size: 12 cm x 10 cm</li>
+          <li>Color: Black</li>
+          <li>1-year Quality Warranty</li>
+        </ul>
+        <section class="text-center my-4">
+          <button class="btn btn-primary px-4 py-2 fw-bold">অর্ডার করতে চাই</button>
+        </section>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Quality Box -->
+  <section class="text-center mb-5">
+    <div class="quality-box mx-auto p-4">
+      <h5 class="fw-bold text-white mb-3">Committed to provide best quality product</h5>
+      <p class="text-white mb-0">
+        লেডিস ব্যাগ, পার্স চায়না ইমপোর্টেড প্রোডাক্ট, শতভাগ চায়না আর্টিফিশিয়াল লেদার দ্বারা প্রস্তুতকৃত শুধু পণ্য বিক্রয় নয়, 
+        আমরা দিচ্ছি বিক্রয় পর সেবা এবং আরো সব ভার্সাটাইল ডিজাইন এবং কোয়ালিটি পণ্য যা আপনার আধুনিক জীবনযাত্রায় একধাপ এগিয়ে রাখবে।
+      </p>
+    </div>
+  </section>
+
+  <!-- Why Buy Heading -->
+  <section class="section">
+    <div class="section-heading">
+      <h5>কেন আপনি আমাদের থেকে ব্যাগ ও ওয়ালেট গুলো নিবেন?</h5>
+    </div>
+  </section>
+
+  <!-- Checklist -->
+  <section class="mb-5">
+    <ul class="list-unstyled text-start mx-auto max-700">
+      <li class="d-flex align-items-center py-2 border-bottom">
+        <i class="bi bi-check-circle-fill text-primary me-2"></i>
+        ১০০% অরিজিনাল চায়না আর্টিফিশিয়াল লেদার দিয়ে তৈরি।
+      </li>
+      <li class="d-flex align-items-center py-2 border-bottom">
+        <i class="bi bi-check-circle-fill text-primary me-2"></i>
+        চায়না থেকে আমদানিকৃত খুবই উন্নত মানের আকর্ষণীয় ইউনিক ডিজাইন।
+      </li>
+      <li class="d-flex align-items-center py-2 border-bottom">
+        <i class="bi bi-check-circle-fill text-primary me-2"></i>
+        পণ্য হাতে পেয়ে বিল পরিশোধের সুবিধা।
+      </li>
+      <li class="d-flex align-items-center py-2 border-bottom">
+        <i class="bi bi-check-circle-fill text-primary me-2"></i>
+        সরাসরি অফিস অথবা পন্য দেখে চয়েজ করার সুবিধা।
+      </li>
+    </ul>
+  </section>
+
+  <!-- Review Heading -->
+  <section class="section">
+    <div class="section-heading">
+      <h5>এক নজরে সম্মানিত কাস্টমারদের রিভিউ সমূহঃ</h5>
+    </div>
+  </section>
+
+  <!-- Review Images -->
+  <div class="container py-5">
+    <section class="row justify-content-center g-4 text-center mb-5">
+      <div class="col-lg-4 col-md-6">
+        <img src="/storage/images/wallet/10-1.jpg" class="img-fluid rounded shadow-sm" alt="Customer Review 1">
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <img src="/storage/images/wallet/11-1-768x1105-1.jpg" class="img-fluid rounded shadow-sm" alt="Customer Review 2">
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <img src="/storage/images/wallet/9-1.jpg" class="img-fluid rounded shadow-sm" alt="Customer Review 3">
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="text-center">
+      <div class="call-box py-3 px-5">
+        <h4 class="text-white fw-bold mb-3">প্রয়োজনে কল করুন</h4>
+        <div class="d-inline-flex align-items-center gap-2 bg-white text-dark px-3 py-2 rounded shadow-sm fw-semibold">
+          <i class="bi bi-telephone-fill"></i> 01819000000
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+</body>
+

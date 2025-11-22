@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport"
-    content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
   <title>GrapesJS Builder</title>
 
@@ -96,7 +96,7 @@
         ],
         scripts: [
           "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js",
-        ]
+        ],
       },
     });
 
@@ -134,34 +134,59 @@
       }
     });
 
-    // Save command (still calling your existing PHP endpoint)
+    // ===== SAVE COMMAND (Apply Now button uses this) =====
     editor.Commands.add("save-to-session", {
       run(editor, sender) {
         sender && sender.set("active", false);
         const html = editor.getHtml();
-        const css = editor.getCss();
+        const css  = editor.getCss();
 
-        fetch("save.php", {
+        fetch("{{ asset('save.php') }}?uid={{ $uid }}", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
           },
           body: JSON.stringify({
-            slug: "{{ $slug }}",
-            html: html,
-            css: css
-          })
+    slug: "{{ $slug }}",
+    php: html,
+    css: css
+})
         })
           .then(res => res.text())
-          .then(msg => alert(msg))
-          .catch(err => alert("Error saving: " + err));
+          .then(msg => {
+            alert(msg);
+            console.log("Save response:", msg);
+          })
+          .catch(err => {
+            alert("Error saving: " + err);
+            console.error(err);
+          });
       }
+    });
+
+    // ===== AUTO-SAVE ON UPDATE =====
+    editor.on("update", () => {
+      const html = editor.getHtml();
+      const css  = editor.getCss();
+
+      fetch("{{ asset('session_save.php') }}?uid={{ $uid }}", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          slug: "{{ $slug }}",
+          html: html,
+          css: css
+        })
+      }).catch(err => console.error("Auto-save error:", err));
     });
 
     function createLabel(text, iconName, weight = 300) {
       return `
         <div class="block-label">
-          <span class="material-symbols-outlined" style="font-variation-settings: 'wght' ${weight}; font-size: 36px;">
+          <span class="material-symbols-outlined"
+                style="font-variation-settings: 'wght' ${weight}; font-size: 36px;">
             ${iconName}
           </span>
           ${text}
@@ -169,7 +194,7 @@
       `;
     }
 
-    // Layout blocks
+    // ===== LAYOUT BLOCKS =====
     editor.BlockManager.add("1-column", {
       label: createLabel("1 Column", "check_box_outline_blank"),
       category: "Layout",
@@ -190,7 +215,7 @@
       content: `
       <div class="container-fluid px-2">
         <div class="row">
-          <div class="col-6 p- text-center" data-gjs-droppable="true">
+          <div class="col-6 p-2 text-center" data-gjs-droppable="true">
             <div class="column-placeholder" data-gjs-type="placeholder"> Column</div>
           </div>
           <div class="col-6 p-2 text-center" data-gjs-droppable="true">
@@ -227,7 +252,7 @@
       content: `
     <div class="container-fluid px-2">
       <div class="row">
-         <div class="col-3 p-2 text-center" data-gjs-droppable="true">
+        <div class="col-3 p-2 text-center" data-gjs-droppable="true">
           <div class="column-placeholder" data-gjs-type="placeholder"> 1/4 Column</div>
         </div>
         <div class="col-9 p-2 text-center" data-gjs-droppable="true">
@@ -238,7 +263,7 @@
   `,
     });
 
-    // Basic / typography / media blocks
+    // ===== BASIC / TYPOGRAPHY / MEDIA BLOCKS =====
     editor.BlockManager.add("section", {
       label: createLabel("Section", "article"),
       category: "Basic",
@@ -319,7 +344,7 @@
       category: "Media",
       content: `
       <div class="ratio ratio-16x9">
-        <iframe src="https://maps.google.com/maps?q=New York&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+        <iframe src="https://maps.google.com/maps?q=New York&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 frameborder="0" style="border:0;" allowfullscreen></iframe>
       </div>
     `,
@@ -332,37 +357,19 @@
         '<span class="material-symbols-outlined" style="font-variation-settings: \'wght\' 300; font-size: 48px;">star</span>',
     });
 
-    // Auto-save to your existing endpoint
-    editor.on('update', () => {
-      const html = editor.getHtml();
-      const css = editor.getCss();
-
-      fetch('session_save.php', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          slug: "{{ $slug }}",
-          html: html,
-          css: css
-        })
-      });
-    });
-
-    // On load
+    // ===== ON LOAD =====
     editor.on("load", () => {
       editor.Panels.getButton("views", "open-blocks").set("active", true);
 
-      // 🔽 Add SAVE button under the blocks panel (below "Icon")
+      // Apply Now button under the blocks panel
       const blockContainer = editor.BlockManager.getContainer();
       if (blockContainer) {
-        const saveBtn = document.createElement('button');
-        saveBtn.innerHTML = "Apply";
+        const saveBtn = document.createElement("button");
+        saveBtn.innerHTML = "Apply Now";
         saveBtn.className = "gjs-btn gjs-btn-save";
         saveBtn.style.display = "block";
         saveBtn.style.width = "100%";
-        saveBtn.style.margin = "10px 0";
+        saveBtn.style.margin = "31px 0";
         saveBtn.style.padding = "8px";
         saveBtn.style.border = "none";
         saveBtn.style.background = "#6c5ce7";

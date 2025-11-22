@@ -189,7 +189,8 @@
     </div>
     <div class="template-title">3 Piece</div>
     <div class="template-actions d-flex justify-content-center gap-2">
-      <a href="preview.php?slug=3-piece" class="btn btn-success">
+      <a href="{{ url('preview.php?slug=3-piece') }}" class="btn btn-success">
+
         <i class="bi bi-eye"></i> Preview
       </a>
       <a href="#"
@@ -209,7 +210,7 @@
     </div>
     <div class="template-title">Allergy Cure</div>
     <div class="template-actions d-flex justify-content-center gap-2">
-      <a href="preview.php?slug=allergy-cure" class="btn btn-success">
+      <a href="{{ url('preview.php?slug=allergy-cure') }}" class="btn btn-success">
         <i class="bi bi-eye"></i> Preview
       </a>
      <a href="#"
@@ -229,7 +230,7 @@
     </div>
     <div class="template-title">Blue Cut</div>
     <div class="template-actions d-flex justify-content-center gap-2">
-      <a href="preview.php?slug=blue-cut" class="btn btn-success btn-sm">
+     <a href="{{ url('preview.php?slug=blue-cut') }}" class="btn btn-success">
         <i class="bi bi-eye"></i> Preview
       </a>
       <a href="#"
@@ -249,7 +250,7 @@
     </div>
     <div class="template-title">Combo Pack</div>
     <div class="template-actions d-flex justify-content-center gap-2">
-      <a href="preview.php?slug=combo-pack" class="btn btn-success btn-sm">
+      <a href="{{ url('preview.php?slug=combo-pack') }}" class="btn btn-success">
         <i class="bi bi-eye"></i> Preview
       </a>
       <a href="#"
@@ -269,7 +270,7 @@
     </div>
     <div class="template-title">Jacket</div>
     <div class="template-actions d-flex justify-content-center gap-2">
-      <a href="preview.php?slug=jacket" class="btn btn-success btn-sm">
+      <a href="{{ url('preview.php?slug=jacket') }}" class="btn btn-success">
         <i class="bi bi-eye"></i> Preview
       </a>
       <a href="#"
@@ -289,7 +290,7 @@
     </div>
     <div class="template-title">Juta</div>
     <div class="template-actions d-flex justify-content-center gap-2">
-      <a href="preview.php?slug=juta" class="btn btn-success btn-sm">
+      <a href="{{ url('preview.php?slug=juta') }}" class="btn btn-success">
         <i class="bi bi-eye"></i> Preview
       </a>
       <a href="#"
@@ -309,7 +310,7 @@
     </div>
     <div class="template-title">Ladies Hand Bag</div>
     <div class="template-actions d-flex justify-content-center gap-2">
-      <a href="preview.php?slug=ladies-hand-bag" class="btn btn-success btn-sm">
+      <a href="{{ url('preview.php?slug=ladies-hand-bag') }}" class="btn btn-success">
         <i class="bi bi-eye"></i> Preview
       </a>
       <a href="#"
@@ -329,7 +330,7 @@
     </div>
     <div class="template-title">Modhu</div>
     <div class="template-actions d-flex justify-content-center gap-2">
-      <a href="preview.php?slug=modhu" class="btn btn-success btn-sm">
+      <a href="{{ url('preview.php?slug=modhu') }}" class="btn btn-success">
         <i class="bi bi-eye"></i> Preview
       </a>
       <a href="#"
@@ -349,7 +350,7 @@
     </div>
     <div class="template-title">Perfume BD</div>
     <div class="template-actions d-flex justify-content-center gap-2">
-      <a href="preview.php?slug=perfume-bd" class="btn btn-success btn-sm">
+      <a href="{{ url('preview.php?slug=perfume-bd') }}" class="btn btn-success">
         <i class="bi bi-eye"></i> Preview
       </a>
       <a href="#"
@@ -370,7 +371,7 @@
     </div>
     <div class="template-title">Pitha</div>
     <div class="template-actions d-flex justify-content-center gap-2">
-      <a href="preview.php?slug=pitha" class="btn btn-success btn-sm">
+     <a href="{{ url('preview.php?slug=pitha') }}" class="btn btn-success">
         <i class="bi bi-eye"></i> Preview
       </a>
      <a href="#"
@@ -390,7 +391,7 @@
     </div>
     <div class="template-title">POLO T-Shirt</div>
     <div class="template-actions d-flex justify-content-center gap-2">
-      <a href="preview.php?slug=polo-t-shirt" class="btn btn-success btn-sm">
+      <a href="{{ url('preview.php?slug=polo-t-shirt') }}" class="btn btn-success">
         <i class="bi bi-eye"></i> Preview
       </a>
       <a href="#"
@@ -410,7 +411,7 @@
     </div>
     <div class="template-title">Safety Cover</div>
     <div class="template-actions d-flex justify-content-center gap-2">
-      <a href="preview.php?slug=safety-cover" class="btn btn-success btn-sm custom-link">
+     <a href="{{ url('preview.php?slug=safety-cover') }}" class="btn btn-success">
         <i class="bi bi-eye"></i> Preview
       </a>
       <a href="#"
@@ -430,7 +431,7 @@
     </div>
     <div class="template-title">Wallet</div>
     <div class="template-actions d-flex justify-content-center gap-2">
-      <a href="preview.php?slug=wallet" class="btn btn-success btn-sm">
+      <a href="{{ url('preview.php?slug=wallet') }}" class="btn btn-success">
         <i class="bi bi-eye"></i> Preview
       </a>
       <a href="#"
@@ -450,7 +451,7 @@
     </div>
     <div class="template-title">Headphones</div>
     <div class="template-actions d-flex justify-content-center gap-2">
-      <a href="preview.php?slug=headphones" class="btn btn-success btn-sm">
+     <a href="{{ url('preview.php?slug=headphones') }}" class="btn btn-success btn-sm">
         <i class="bi bi-eye"></i> Preview
       </a>
       <a href="#"
@@ -470,7 +471,7 @@
     </div>
     <div class="template-title">Khejur Gur</div>
     <div class="template-actions d-flex justify-content-center gap-2">
-      <a href="preview.php?slug=khejur-gur" class="btn btn-success btn-sm"> 
+      <a href="{{ url('preview.php?slug=khejur-gur') }}" class="btn btn-success">
         <i class="bi bi-eye"></i> Preview
       </a>
       <a href="#"

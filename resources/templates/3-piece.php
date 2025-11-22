@@ -1,9 +1,12 @@
-
-<body>
-  <div class="threep">
+<div class="threep">
 
   <div class="container text-center my-5">
-    <img src="../../assets/images/3-piece/Letter-A-Logo-With-Business-and-Arrow-Concept.-128-x-128-px-128-x-128-px3-2048x2048.png" alt="Logo" class="logo mb-3" />
+    <!-- Logo -->
+    <img
+      src="/storage/images/3-piece/Letter-A-Logo-With-Business-and-Arrow-Concept.-128-x-128-px-128-x-128-px3-2048x2048.png"
+      alt="Logo"
+      class="logo mb-3"
+    />
 
     <h2 class="fw-bold text-magenta mb-4">সম্পূর্ণ অফসান প্রিন্ট করা আনস্টিচড ৩ পিস</h2>
 
@@ -12,10 +15,10 @@
         <div id="carouselOne" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="../../assets/images/3-piece/3pcs-2.webp" class="d-block w-100 rounded" alt="Item 1" />
+              <img src="/storage/images/3-piece/3pcs-2.webp" class="d-block w-100 rounded" alt="Item 1" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/3-piece/3pcs-4.webp" class="d-block w-100 rounded" alt="Item 2" />
+              <img src="/storage/images/3-piece/3pcs-4.webp" class="d-block w-100 rounded" alt="Item 2" />
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselOne" data-bs-slide="prev">
@@ -31,10 +34,10 @@
         <div id="carouselTwo" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../../assets/images/3-piece/3pcs-4.webp" class="d-block w-100 rounded" alt="Item 3" />
+              <img src="/storage/images/3-piece/3pcs-4.webp" class="d-block w-100 rounded" alt="Item 3" />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/3-piece/3pcs-2.webp" class="d-block w-100 rounded" alt="Item 4" />
+              <img src="/storage/images/3-piece/3pcs-2.webp" class="d-block w-100 rounded" alt="Item 4" />
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselTwo" data-bs-slide="prev">
@@ -83,10 +86,10 @@
           <div id="carouselProduct" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="../../assets/images/3-piece/3pcs-3.webp" class="d-block w-100 rounded" alt="Product 1">
+                <img src="/storage/images/3-piece/3pcs-3.webp" class="d-block w-100 rounded" alt="Product 1">
               </div>
               <div class="carousel-item">
-                <img src="../../assets/images/3-piece/3pcs-6.webp" class="d-block w-100 rounded" alt="Product 2">
+                <img src="/storage/images/3-piece/3pcs-6.webp" class="d-block w-100 rounded" alt="Product 2">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduct" data-bs-slide="prev">
@@ -120,13 +123,13 @@
       <h3 class="text-center fw-bold text-magenta mb-4">আনস্টিচড ৩ পিস এর বৈশিষ্ট্য</h3>
       <div class="row justify-content-center">
         <div class="col-lg-8">
-            <ul class="list-unstyled feature-list">
-                <li><span class="tick">✔</span> আমরা নিজের তত্ত্বাবধানে ইসলামপুরে আমাদের নিজস্ব ফ্যাক্টরিতে মেশিনচালিত করে থাকি</li>
-                <li><span class="tick">✔</span> কারণ আমরা সম্পূর্ণ কাপড় নিজেরা প্রস্তুত করি কাপড়ের ওড়না ও পায়জামার কাপড় সম্পূর্ণ সুতি কাপড়।</li>
-                <li><span class="tick">✔</span> আর আমাদের মোবাইল নম্বারে সকাল দশটা হতে রাত দশটা পর্যন্ত পাওয়া যাবে।</li>
-                <li><span class="tick">✔</span> যদি প্রোডাক্টের কোন সমস্যা থাকে উক্ত প্রোডাক্টের একটি ভিডিও অথবা মেসেঞ্জার অথবা হোয়াটসঅ্যাপে ভিডিও দিবেন।</li>
-                <li><span class="tick">✔</span> যদি আমাদের সমস্যা যুক্তিসঙ্গত মনে করি তাহলে আমরা বিনা ডেলিভারি চার্জে প্রোডাক্ট এক্সচেঞ্জ করে দিব।</li>
-              </ul>
+          <ul class="list-unstyled feature-list">
+            <li><span class="tick">✔</span> আমরা নিজের তত্ত্বাবধানে ইসলামপুরে আমাদের নিজস্ব ফ্যাক্টরিতে মেশিনচালিত করে থাকি</li>
+            <li><span class="tick">✔</span> কারণ আমরা সম্পূর্ণ কাপড় নিজেরা প্রস্তুত করি কাপড়ের ওড়না ও পায়জামার কাপড় সম্পূর্ণ সুতি কাপড়।</li>
+            <li><span class="tick">✔</span> আর আমাদের মোবাইল নম্বারে সকাল দশটা হতে রাত দশটা পর্যন্ত পাওয়া যাবে।</li>
+            <li><span class="tick">✔</span> যদি প্রোডাক্টের কোন সমস্যা থাকে উক্ত প্রোডাক্টের একটি ভিডিও অথবা মেসেঞ্জার অথবা হোয়াটসঅ্যাপে ভিডিও দিবেন।</li>
+            <li><span class="tick">✔</span> যদি আমাদের সমস্যা যুক্তিসঙ্গত মনে করি তাহলে আমরা বিনা ডেলিভারি চার্জে প্রোডাক্ট এক্সচেঞ্জ করে দিব।</li>
+          </ul>
           <div class="text-center mt-4">
             <a href="#" class="btn btn-order fw-bold">🛒 অর্ডার করতে চাই</a>
           </div>
@@ -135,5 +138,4 @@
     </div>
   </section>
 
-</div> 
-</body>
+</div>

@@ -1,0 +1,150 @@
+<body>
+
+  <div  class="polo-t-shirt">
+  <div class="heading">আপনার পছন্দের সব কালেকশন নিয়ে হাজির Ayesha Tex</div>
+
+  <div class="container py-5">
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4">
+        <div class="product-card1">
+          <img src="/storage/images/polo-t-shirt/2-4.jpg" alt="Black Shirt" />
+          Premium Cotton Polo T-shirt<br /><br />
+          <p class="product-info">
+            <b>কোড:</b> T-90<br />
+            <b>কালার: </b>Black
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product-card1">
+          <img src="/storage/images/polo-t-shirt/3-6.jpg" alt="Green Shirt" />
+          Premium Cotton Polo T-shirt<br /><br />
+          <p class="product-info">
+            <b>কোড:</b> T-90<br />
+            <b>কালার: </b>Green
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product-card1">
+          <img src="/storage/images/polo-t-shirt/4.jpg" alt="White Shirt" />
+          Premium Cotton Polo T-shirt<br /><br />
+          <p class="product-info">
+            <b>কোড:</b> T-90<br />
+            <b>কালার: </b>White
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center">
+    <button class="order-btn0">অর্ডার করতে চাই</button>
+  </div>
+
+  <div class="bluebox1">প্রাইজ</div>
+
+  <div class="price-cut">
+    রেগুলার প্রাইজ (৮০০ টাকা)<br />
+    ১০০% সুতি পাঞ্জাবি অফারে মাত্র (৭৫০ টাকা)
+  </div>
+
+  <div class="text-center">
+    <button class="order-btn1">অর্ডার করতে চাই</button>
+  </div>
+
+  <div class="bluebox2">প্রাইজ</div>
+
+  <div class="container mt-4">
+    <div class="checklist-item">
+      <i class="bi bi-check-circle-fill"></i> টি-শার্ট সাধারণত তুলা বা পলিয়েস্টার দ্বারা তৈরি হয়।
+    </div>
+    <div class="checklist-item">
+      <i class="bi bi-check-circle-fill"></i> টি-শার্ট সাধারণত তুলা বা পলিয়েস্টার দ্বারা তৈরি হয়।
+    </div>
+    <div class="checklist-item">
+      <i class="bi bi-check-circle-fill"></i> টি-শার্ট সাধারণত তুলা বা পলিয়েস্টার দ্বারা তৈরি হয়।
+    </div>
+    <div class="checklist-item">
+      <i class="bi bi-check-circle-fill"></i> টি-শার্ট সাধারণত তুলা বা পলিয়েস্টার দ্বারা তৈরি হয়।
+    </div>
+    <div class="checklist-item">
+      <i class="bi bi-check-circle-fill"></i> টি-শার্ট সাধারণত তুলা বা পলিয়েস্টার দ্বারা তৈরি হয়।
+    </div>
+  </div>
+
+  <div class="video-box">
+    <iframe
+      src="https://www.youtube.com/embed/KJwYBJMSbPI?si=goh-mQLMLueVk8TW"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </div>
+
+  <div class="bluebox3">সম্মানিত গ্রাহকদের রিভিউ</div>
+
+  <!-- ✅ Responsive for iPad Mini (2 cols) and Desktop (4 cols) -->
+  <div class="screenshot-box container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-3 justify-content-center text-center">
+      <div class="col">
+        <img src="/storage/images/polo-t-shirt/r-3-1.jpg" alt="Chat 1" class="img-fluid chat-img" />
+      </div>
+      <div class="col">
+        <img src="/storage/images/polo-t-shirt/r-4-1.jpg" alt="Chat 2" class="img-fluid chat-img" />
+      </div>
+      <div class="col">
+        <img src="/storage/images/polo-t-shirt/r-5-1.jpg" alt="Chat 3" class="img-fluid chat-img" />
+      </div>
+      <div class="col">
+        <img src="/storage/images/polo-t-shirt/r-6-1.jpg" alt="Chat 4" class="img-fluid chat-img" />
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center">
+    <button class="order-btn2">অর্ডার করতে চাই</button>
+  </div>
+
+  <div class="container py-5 text-center">
+    <div class="row justify-content-center g-3">
+      <div class="col-12 col-md-5">
+        <div class="banner">পিকচাররের সাথে মিল না হলে এক টাকাও দিতে হবে না</div>
+      </div>
+      <div class="col-12 col-md-5">
+        <div class="banner">ক্যাশঅন ( হস্ত )হাম ডেলিভারি হবে পুরো বাংলাদেশ ইনশাআল্লাহ</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center">
+    <button class="order-btn2">
+      হোম ডেলিভারি টাইম ও চার্জ<br />
+      ঢাকার ভিতর ১-২ দিন। চার্জ-৭০ টাকা<br />
+      ঢাকার বাহির ২-৩ দিন। চার্জ-১২০ টাকা
+    </button>
+  </div>
+
+  <div class="bluebox3">সাইজ গাইড</div>
+
+  <div class="container d-flex justify-content-center align-items-center" style="min-height: 70vh">
+    <div class="graph text-center">
+      <img
+        src="/storage/images/polo-t-shirt/download.jpg"
+        alt="Size Guide"
+        class="chat-img1 custom-img"
+      />
+    </div>
+  </div>
+
+  <div class="bluebox4">
+    প্রয়োজনে ফোন করুন<br /><br /><br />
+    <a href="tel:01619000000" class="contact-btn btn-phone1">
+      <i class="fas fa-phone"></i> 01619000000
+    </a>
+  </div>
+</div>
+</body>
+

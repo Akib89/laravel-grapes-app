@@ -1,19 +1,31 @@
 <?php
+// public/session_save.php
 session_start();
 
 $data = json_decode(file_get_contents("php://input"), true);
 
-$uid = $_GET['uid'] ?? ($_SESSION['current_uid'] ?? null); // fallback
-$slug = $data['slug'] ?? 'default';
-$html = $data['html'] ?? '';
-
-if (!empty($uid)) {
-    $_SESSION['saved'][$uid] = [
-        'slug' => $slug,
-        'html' => $html
-    ];
-    $_SESSION['current_uid'] = $uid;
-    echo "Saved for UID: $uid";
-} else {
-    echo "UID missing";
+if (!$data || !isset($data['slug'], $data['php'], $data['css'])) {
+    http_response_code(400);
+    echo "Invalid payload";
+    exit;
 }
+
+$uid  = $_GET['uid'] ?? null;
+$slug = $data['slug'];
+$html = $data['php']; // grapesJs HTML
+$css  = $data['css']; // grapesJs CSS
+
+if (!$uid) {
+    echo "UID missing";
+    exit;
+}
+
+$_SESSION['saved'][$uid] = [
+    'slug' => $slug,
+    'php'  => $html,
+    'css'  => $css,
+];
+
+$_SESSION['current_uid'] = $uid;
+
+echo "Auto-saved for UID: $uid";

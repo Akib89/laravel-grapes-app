@@ -1,7 +1,7 @@
 <?php
 // public/save.php
 
-// 1. Allowed slugs (same as in your builder)
+// Allowed slugs
 $allowedSlugs = [
     '3-piece',
     'allergy-cure',
@@ -20,50 +20,41 @@ $allowedSlugs = [
     'wallet',
 ];
 
-// 2. Read JSON body
-$raw = file_get_contents('php://input');
-$data = json_decode($raw, true);
+// Read JSON
+$data = json_decode(file_get_contents('php://input'), true);
 
-if (!$data || !isset($data['slug'], $data['html'], $data['css'])) {
+if (!$data || !isset($data['slug'], $data['php'], $data['css'])) {
     http_response_code(400);
     echo 'Invalid payload';
     exit;
 }
 
 $slug = $data['slug'];
-$html = $data['html'];
-$css  = $data['css'];
+$html = $data['php']; // GrapesJS HTML
+$css  = $data['css']; // GrapesJS CSS
 
-// 3. Validate slug
+// Validate slug
 if (!in_array($slug, $allowedSlugs, true)) {
     http_response_code(400);
     echo 'Invalid slug';
     exit;
 }
 
-// 4. Decide where to save
-// We'll save into resources/templates/{slug}.html
-// so your BuilderController (or loader) can read it next time.
+// Save into resources/templates/{slug}.php
 $basePath = __DIR__ . '/../resources/templates';
 
 if (!is_dir($basePath)) {
-    if (!mkdir($basePath, 0775, true) && !is_dir($basePath)) {
-        http_response_code(500);
-        echo 'Failed to create templates directory';
-        exit;
-    }
+    mkdir($basePath, 0775, true);
 }
 
-$filePath = $basePath . '/' . $slug . '.html';
+$filePath = $basePath . '/' . $slug . '.php';
 
-// 5. Build file content: CSS inline + HTML
 $content = "<style>\n{$css}\n</style>\n{$html}\n";
 
-// 6. Save file
 if (file_put_contents($filePath, $content) === false) {
     http_response_code(500);
     echo 'Failed to save template';
     exit;
 }
 
-echo 'Template saved successfully';
+echo "Template saved successfully";
