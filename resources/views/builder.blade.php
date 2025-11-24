@@ -64,20 +64,19 @@
 .apply-now-global {
     display: block;
     width: 100%;
-    padding: 10px;
-    margin: 20px 0;
+    padding: 12px;
     background: #6c5ce7;
     color: #fff;
     border: none;
     cursor: pointer;
     font-weight: bold;
     text-align: center;
+    font-size: 16px;
 }
 
 .apply-now-global {
     position: sticky;
     bottom: 0;
-    z-index: 10;
 }
 
       </style>
@@ -200,22 +199,22 @@
 
          
          // ===== AUTO-SAVE ON UPDATE =====
-         editor.on("update", () => {
-           const html = editor.getHtml();
-           const css  = editor.getCss();
+        //  editor.on("update", () => {
+        //    const html = editor.getHtml();
+        //    const css  = editor.getCss();
          
-           fetch("{{ asset('session_save.php') }}?uid={{ $uid }}", {
-             method: "POST",
-             headers: {
-               "Content-Type": "application/json"
-             },
-             body: JSON.stringify({
-               slug: "{{ $slug }}",
-               html: html,
-               css: css
-             })
-           }).catch(err => console.error("Auto-save error:", err));
-         });
+        //    fetch("{{ asset('session_save.php') }}?uid={{ $uid }}", {
+        //      method: "POST",
+        //      headers: {
+        //        "Content-Type": "application/json"
+        //      },
+        //      body: JSON.stringify({
+        //        slug: "{{ $slug }}",
+        //        html: html,
+        //        css: css
+        //      })
+        //    }).catch(err => console.error("Auto-save error:", err));
+        //  });
          
          function createLabel(text, iconName, weight = 300) {
            return `
@@ -361,19 +360,17 @@
          `,
          });
          
-         editor.BlockManager.add("video", {
-           label: createLabel("Video", "smart_display"),
-           category: "Media",
-           content: `
-           <div class="ratio ratio-16x9">
-             <video controls>
-               <source src="movie.mp4" type="video/mp4">
-               Your browser does not support the video tag.
-             </video>
-           </div>
-         `,
-         });
-         
+        editor.BlockManager.add("video", {
+  label: createLabel("Video", "smart_display"),
+  category: "Media",
+  content: `
+    <div class="ratio ratio-16x9">
+      <video controls src="https://www.w3schools.com/html/mov_bbb.mp4">
+      </video>
+    </div>
+  `,
+});
+
          editor.BlockManager.add("map", {
            label: createLabel("Map", "map"),
            category: "Media",
