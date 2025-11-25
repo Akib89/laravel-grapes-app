@@ -64,20 +64,21 @@
 .apply-now-global {
     display: block;
     width: 100%;
-    padding: 12px;
+    padding: 4px 10px;
     background: #6c5ce7;
     color: #fff;
     border: none;
     cursor: pointer;
     font-weight: bold;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .apply-now-global {
     position: sticky;
     bottom: 0;
 }
+
 
       </style>
    </head>
@@ -390,25 +391,26 @@
          });
          
          // ===== ON LOAD =====
-         editor.on("load", () => {
+editor.on("load", () => {
     editor.Panels.getButton("views", "open-blocks").set("active", true);
 
-    // Find the global views container (shared by all tabs)
-    const viewsContainer = document.querySelector(".gjs-pn-views-container");
-
-    if (viewsContainer) {
-        const saveBtn = document.createElement("button");
-        saveBtn.innerHTML = "Apply Now";
-        saveBtn.className = "apply-now-global";   // use your custom class
-        saveBtn.onclick = () => editor.runCommand("save-to-session");
-
-        viewsContainer.appendChild(saveBtn);
-    }
+    // Add Apply Now to TOP RIGHT PANEL
+    editor.Panels.addButton("options", {
+        id: "apply-now-top",
+        label: "Apply Now",
+        className: "apply-now-global top-apply-btn",
+        command: "save-to-session",
+        attributes: { title: "Save Template" }
+    });
 
     @if (!empty($htmlBody))
         editor.setComponents(`{!! $htmlBody !!}`);
     @endif
 });
+
+
+
+
 
       </script>
    </body>
