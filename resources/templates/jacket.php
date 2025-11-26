@@ -1,45 +1,199 @@
 <style>
-* { box-sizing: border-box; } body {margin: 0;}#irr2vi{color:red;}#iwhi0z{color:red;}#is15lz{color:red;}
+   * { box-sizing: border-box; } body {margin: 0;}#irr2vi{color:red;}#iwhi0z{color:red;}#is15lz{color:red;}
 </style>
-<body><div class="jacket"><div class="top"><div class="container text-center py-2.5"><img src="/storage/images/jacket/Brand-Logo-2-removebg-preview.png" alt="Brand Logo" class="brand-logo mb-3"/><div class="highlight1-blackbox mb-4">
-              বেস্ট সেলিং স্টাইলিশ প্যাডিং জ্যাকেট অফার প্রাইস<br/> মাত্র ১৫৫০ টাকা
-            </div><h4 class="first mb-3">এক্সক্লুসিভ এক্সপোর্ট কোয়ালিটি প্যাডিং জ্যাকেট</h4><p class="second">১০০% প্রিমিয়াম কোয়ালিটির কথা আর পছন্দ না হলে সাথে সাথেই রিটার্ন <br/>করার সুযোগ</p><button class="order-btn">অর্ডার করতে চাই</button></div></div><div class="container product-section"><div class="row g-4"><div class="col-md-6"><div class="product-card"><img src="/storage/images/jacket/Padding-Jacket-Olive-1.jpg" alt="Exclusive Padding Jacket"/></div></div><div class="col-md-6"><div class="product-card"><img src="/storage/images/jacket/Padding-Jacket-Red-1.jpg" alt="Exclusive Padding Jacket"/></div></div></div></div><div class="container question"><div class="highlight1-yellowbox mb-4">
+<body>
+   <div class="jacket">
+      <div class="top">
+         <div class="container text-center py-2.5">
+            <img src="/storage/images/jacket/Brand-Logo-2-removebg-preview.png" alt="Brand Logo" class="brand-logo mb-3"/>
+            <div class="highlight1-blackbox mb-4">
+               বেস্ট সেলিং স্টাইলিশ প্যাডিং জ্যাকেট অফার প্রাইস<br/> মাত্র ১৫৫০ টাকা
+            </div>
+            <h4 class="first mb-3">এক্সক্লুসিভ এক্সপোর্ট কোয়ালিটি প্যাডিং জ্যাকেট</h4>
+            <p class="second">১০০% প্রিমিয়াম কোয়ালিটির কথা আর পছন্দ না হলে সাথে সাথেই রিটার্ন <br/>করার সুযোগ</p>
+            <button class="order-btn">অর্ডার করতে চাই</button>
+         </div>
+      </div>
+      <div class="container product-section">
+         <div class="row g-4">
+            <div class="col-md-6">
+               <div class="product-card"><img src="/storage/images/jacket/Padding-Jacket-Olive-1.jpg" alt="Exclusive Padding Jacket"/></div>
+            </div>
+            <div class="col-md-6">
+               <div class="product-card"><img src="/storage/images/jacket/Padding-Jacket-Red-1.jpg" alt="Exclusive Padding Jacket"/></div>
+            </div>
+         </div>
+      </div>
+      <div class="container question">
+         <div class="highlight1-yellowbox mb-4">
             আপনাদের মনের ভিতরের কিছু প্রশ্ন ও তার উত্তরঃ
-          </div></div><div id="faqAccordion" class="accordion custom-accordion"><div class="accordion-item"><h2 class="accordion-header"><button type="button" data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="true" class="accordion-button">
-              এটা কি কাপড় ? এর রঙ থাকবে কিনা ?
-            </button></h2><div id="q1" data-bs-parent="#faqAccordion" class="accordion-collapse collapse show"><div class="accordion-body">এটা Suskin Fabric. আজীবনও রঙ নষ্ট হবে না।</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" data-bs-toggle="collapse" data-bs-target="#q2" class="accordion-button collapsed">
-              কোয়ালিটি কেমন ?
-            </button></h2><div id="q2" data-bs-parent="#faqAccordion" class="accordion-collapse collapse"><div class="accordion-body">প্রিমিয়াম এক্সপোর্ট কোয়ালিটি।</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" data-bs-toggle="collapse" data-bs-target="#q3" class="accordion-button collapsed">
-              Comfortable কিনা ?
-            </button></h2><div id="q3" data-bs-parent="#faqAccordion" class="accordion-collapse collapse"><div class="accordion-body">হ্যাঁ, একদম আরামদায়ক।</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" data-bs-toggle="collapse" data-bs-target="#q4" class="accordion-button collapsed">
-              কত আসবে ?
-            </button></h2><div id="q4" data-bs-parent="#faqAccordion" class="accordion-collapse collapse"><div class="accordion-body">স্টকে আছে সব সাইজ।</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" data-bs-toggle="collapse" data-bs-target="#q5" class="accordion-button collapsed">
-              দাম বেশি, কমানো যাবে কিনা ?
-            </button></h2><div id="q5" data-bs-parent="#faqAccordion" class="accordion-collapse collapse"><div class="accordion-body">অফার প্রাইসেই দিচ্ছি — ১৫৫০ টাকা।</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" data-bs-toggle="collapse" data-bs-target="#q6" class="accordion-button collapsed">
-              অনলাইনের বিশ্বাস নেই। দেখাই এক দেখো আগে।
-            </button></h2><div id="q6" data-bs-parent="#faqAccordion" class="accordion-collapse collapse"><div class="accordion-body">ক্যাশ অন ডেলিভারি আছে, দেখে নিয়ে পছন্দ না হলে রিটার্ন করতে পারবেন।</div></div></div></div><!-- Order Button --><div class="text-center"><button class="order-btn">অর্ডার করতে চাই</button></div><div class="container-fluid feature-list"><div class="container"><div class="list">
-            কি কি বৈশিষ্ট্যের কারণে জ্যাকেটটি আপনার নেওয়া উচিতঃ
-          </div></div><div class="d-flex justify-content-center"><div class="feature-list1"><div class="feature-item"><span class="check-icon">✔️</span> <span class="highlight1">Fabric:</span> Premium Suskin fabric. Ultra soft, durable and perfect for winter wear.</div><div class="feature-item"><span class="check-icon">✔️</span> <span class="highlight1">Padding:</span> 6 Ounces padding. Designed to keep you warm without adding bulk.</div><div class="feature-item"><span class="check-icon">✔️</span> <span class="highlight1">Zipper:</span> YKK metal zipper (Original). Strong and long lasting for easy closure.</div><div class="feature-item"><span class="check-icon">✔️</span> <span class="highlight1">Sewing:</span> Export quality sewing. Craft for a premium finish.</div><div class="feature-item"><span class="check-icon">✔️</span> <span class="highlight1">Accessories:</span> High quality garment accessories and stylish look.</div><div class="feature-item"><span class="check-icon">✔️</span> Fabric টি অরিজিনাল এক্সপোর্টার।</div><div class="feature-item"><span class="check-icon">✔️</span> Fabric কালার ১০০% গ্যারান্টি।</div><div class="feature-item"><span class="check-icon">✔️</span> Fashionable &amp; Lucrative.</div><div class="feature-item"><span class="check-icon">✔️</span> এই জ্যাকেটটি আসলেই প্রিমিয়াম। হাতে পেলেই বুঝবেন।</div><div class="feature-item"><span class="check-icon">✔️</span> এটি আমাদের বেস্ট সেলিং জ্যাকেটটি শত শত রিভিউ আছে।</div></div></div><div class="text-center mt-4"><button class="btn btn-custom">অর্ডার করতে চাই</button></div><div class="highlight1-yellowbox2 mb-4">
-              সাইজ গাইড
-          </div><div class="table-size-wrapper"><div class="table-size"><div class="table-wrapper-2"><table><tbody><tr><th id="irr2vi">Size</th><th id="iwhi0z">Width (ইঞ্চি)</th><th id="is15lz">Length (ইঞ্চি)</th></tr><tr><td>M</td><td>21</td><td>27</td></tr><tr><td>L</td><td>22</td><td>28</td></tr><tr><td>XL</td><td>23</td><td>29</td></tr><tr><td>XXL</td><td>24</td><td>30</td></tr></tbody></table></div></div></div><div class="text-center mt-4"><button class="btn btn-custom">অর্ডার করতে চাই</button></div></div><div class="container"><div class="highlight1-yellowbox3 mb-4">
+         </div>
+      </div>
+      <div id="faqAccordion" class="accordion custom-accordion">
+         <div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q1">
+      এটা কি কাপড় ? এর রঙ থাকবে কিনা ?
+    </button>
+  </h2>
+  <div id="q1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+    <div class="accordion-body">
+      এটা Suskin Fabric. আজীবনও রঙ নষ্ট হবে না।
+    </div>
+  </div>
+</div>
+         <div class="accordion-item">
+            <h2 class="accordion-header"><button type="button" data-bs-toggle="collapse" data-bs-target="#q2" class="accordion-button collapsed">
+               কোয়ালিটি কেমন ?
+               </button>
+            </h2>
+            <div id="q2" data-bs-parent="#faqAccordion" class="accordion-collapse collapse">
+               <div class="accordion-body">প্রিমিয়াম এক্সপোর্ট কোয়ালিটি।</div>
+            </div>
+         </div>
+         <div class="accordion-item">
+            <h2 class="accordion-header"><button type="button" data-bs-toggle="collapse" data-bs-target="#q3" class="accordion-button collapsed">
+               Comfortable কিনা ?
+               </button>
+            </h2>
+            <div id="q3" data-bs-parent="#faqAccordion" class="accordion-collapse collapse">
+               <div class="accordion-body">হ্যাঁ, একদম আরামদায়ক।</div>
+            </div>
+         </div>
+         <div class="accordion-item">
+            <h2 class="accordion-header"><button type="button" data-bs-toggle="collapse" data-bs-target="#q4" class="accordion-button collapsed">
+               কত আসবে ?
+               </button>
+            </h2>
+            <div id="q4" data-bs-parent="#faqAccordion" class="accordion-collapse collapse">
+               <div class="accordion-body">স্টকে আছে সব সাইজ।</div>
+            </div>
+         </div>
+         <div class="accordion-item">
+            <h2 class="accordion-header"><button type="button" data-bs-toggle="collapse" data-bs-target="#q5" class="accordion-button collapsed">
+               দাম বেশি, কমানো যাবে কিনা ?
+               </button>
+            </h2>
+            <div id="q5" data-bs-parent="#faqAccordion" class="accordion-collapse collapse">
+               <div class="accordion-body">অফার প্রাইসেই দিচ্ছি — ১৫৫০ টাকা।</div>
+            </div>
+         </div>
+         <div class="accordion-item">
+            <h2 class="accordion-header"><button type="button" data-bs-toggle="collapse" data-bs-target="#q6" class="accordion-button collapsed">
+               অনলাইনের বিশ্বাস নেই। দেখাই এক দেখো আগে।
+               </button>
+            </h2>
+            <div id="q6" data-bs-parent="#faqAccordion" class="accordion-collapse collapse">
+               <div class="accordion-body">ক্যাশ অন ডেলিভারি আছে, দেখে নিয়ে পছন্দ না হলে রিটার্ন করতে পারবেন।</div>
+            </div>
+         </div>
+      </div>
+      <!-- Order Button -->
+      <div class="text-center"><button class="order-btn">অর্ডার করতে চাই</button></div>
+      <div class="container-fluid feature-list">
+         <div class="container">
+            <div class="list">
+               কি কি বৈশিষ্ট্যের কারণে জ্যাকেটটি আপনার নেওয়া উচিতঃ
+            </div>
+         </div>
+         <div class="d-flex justify-content-center">
+            <div class="feature-list1">
+               <div class="feature-item"><span class="check-icon">✔️</span> <span class="highlight1">Fabric:</span> Premium Suskin fabric. Ultra soft, durable and perfect for winter wear.</div>
+               <div class="feature-item"><span class="check-icon">✔️</span> <span class="highlight1">Padding:</span> 6 Ounces padding. Designed to keep you warm without adding bulk.</div>
+               <div class="feature-item"><span class="check-icon">✔️</span> <span class="highlight1">Zipper:</span> YKK metal zipper (Original). Strong and long lasting for easy closure.</div>
+               <div class="feature-item"><span class="check-icon">✔️</span> <span class="highlight1">Sewing:</span> Export quality sewing. Craft for a premium finish.</div>
+               <div class="feature-item"><span class="check-icon">✔️</span> <span class="highlight1">Accessories:</span> High quality garment accessories and stylish look.</div>
+               <div class="feature-item"><span class="check-icon">✔️</span> Fabric টি অরিজিনাল এক্সপোর্টার।</div>
+               <div class="feature-item"><span class="check-icon">✔️</span> Fabric কালার ১০০% গ্যারান্টি।</div>
+               <div class="feature-item"><span class="check-icon">✔️</span> Fashionable &amp; Lucrative.</div>
+               <div class="feature-item"><span class="check-icon">✔️</span> এই জ্যাকেটটি আসলেই প্রিমিয়াম। হাতে পেলেই বুঝবেন।</div>
+               <div class="feature-item"><span class="check-icon">✔️</span> এটি আমাদের বেস্ট সেলিং জ্যাকেটটি শত শত রিভিউ আছে।</div>
+            </div>
+         </div>
+         <div class="text-center mt-4"><button class="btn btn-custom">অর্ডার করতে চাই</button></div>
+         <div class="highlight1-yellowbox2 mb-4">
+            সাইজ গাইড
+         </div>
+         <div class="table-size-wrapper">
+            <div class="table-size">
+               <div class="table-wrapper-2">
+                  <table>
+                     <tbody>
+                        <tr>
+                           <th id="irr2vi">Size</th>
+                           <th id="iwhi0z">Width (ইঞ্চি)</th>
+                           <th id="is15lz">Length (ইঞ্চি)</th>
+                        </tr>
+                        <tr>
+                           <td>M</td>
+                           <td>21</td>
+                           <td>27</td>
+                        </tr>
+                        <tr>
+                           <td>L</td>
+                           <td>22</td>
+                           <td>28</td>
+                        </tr>
+                        <tr>
+                           <td>XL</td>
+                           <td>23</td>
+                           <td>29</td>
+                        </tr>
+                        <tr>
+                           <td>XXL</td>
+                           <td>24</td>
+                           <td>30</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <div class="text-center mt-4"><button class="btn btn-custom">অর্ডার করতে চাই</button></div>
+      </div>
+      <div class="container">
+         <div class="highlight1-yellowbox3 mb-4">
             আমাদের জ্যাকেট নিলে কি কি Benefited হবেনঃ
-          </div><div class="container"><div class="highlight1-whitebox mb-4">
-            আপনার Looking টা দারুণ একটা Gentle Looking আসবে।
-        </div><div class="highlight1-whitebox mb-4">
-            আপনার সময় বাঁচবে। মার্কেটে গিয়ে সময় নষ্ট করে ঘুরে ঘুরে Choice করতে হবেনা।
-          </div><div class="highlight1-whitebox mb-4">
-            টাকা বাঁচবে। শোরুমে ডাবল দাম আবার যাতায়াত খরচ।
-          </div><div class="highlight1-whitebox mb-4">
-            হাতে পেয়ে দেখে নিতে পারবেন। পণ্য হোম ডেলিভারি পাচ্ছেন।
-          </div><div class="highlight1-whitebox mb-4">
-            আপনার হ্যাপিনেস, যখন আপনি জ্যাকেটটি গায়ে দিয়ে বের হবেন,সবাই দেখে বলবে দারুণ কোয়ালিটি।
-          </div><div class="highlight1-whitebox mb-4">
-            পরিবারের হ্যাপিনেস। আপনার পরিবারের সবাই আপনার লুক দেখে হ্যাপি হবে।
-          </div><div class="highlight1-whitebox mb-4">
-            দেখতে যেমন সুন্দর তেমন কম্ফোর্টাবল।
-          </div></div><div class="text-center mt-4"><button class="btn btn-custom">অর্ডার করতে চাই</button></div></div><div class="container"><div class="highlight1-yellowbox3 mb-4">
-        সম্মানিত কাস্টমারদের রিভিউ
-  </div></div><div class="text-center mt-4"><button class="btn btn-custom">অর্ডার করতে চাই</button></div><div class="container mb-3"><div class="contact-section12"><div class="contact-title">প্রয়োজনে ফোন করুন</div><a href="tel:01619000000" class="contact-btn btn-phone"><i class="fas fa-phone"></i> 01619000000
-    </a><a href="abc" target="_blank" class="contact-btn btn-whatsapp"><i class="fab fa-whatsapp"></i> 01619000000
-    </a><a href="xyz" target="_blank" class="contact-btn btn-messenger"><i class="fab fa-facebook-messenger"></i> Messenger
-    </a></div></div></div></body>
+         </div>
+         <div class="container">
+            <div class="highlight1-whitebox mb-4">
+               আপনার Looking টা দারুণ একটা Gentle Looking আসবে।
+            </div>
+            <div class="highlight1-whitebox mb-4">
+               আপনার সময় বাঁচবে। মার্কেটে গিয়ে সময় নষ্ট করে ঘুরে ঘুরে Choice করতে হবেনা।
+            </div>
+            <div class="highlight1-whitebox mb-4">
+               টাকা বাঁচবে। শোরুমে ডাবল দাম আবার যাতায়াত খরচ।
+            </div>
+            <div class="highlight1-whitebox mb-4">
+               হাতে পেয়ে দেখে নিতে পারবেন। পণ্য হোম ডেলিভারি পাচ্ছেন।
+            </div>
+            <div class="highlight1-whitebox mb-4">
+               আপনার হ্যাপিনেস, যখন আপনি জ্যাকেটটি গায়ে দিয়ে বের হবেন,সবাই দেখে বলবে দারুণ কোয়ালিটি।
+            </div>
+            <div class="highlight1-whitebox mb-4">
+               পরিবারের হ্যাপিনেস। আপনার পরিবারের সবাই আপনার লুক দেখে হ্যাপি হবে।
+            </div>
+            <div class="highlight1-whitebox mb-4">
+               দেখতে যেমন সুন্দর তেমন কম্ফোর্টাবল।
+            </div>
+         </div>
+         <div class="text-center mt-4"><button class="btn btn-custom">অর্ডার করতে চাই</button></div>
+      </div>
+      <div class="container">
+         <div class="highlight1-yellowbox3 mb-4">
+            সম্মানিত কাস্টমারদের রিভিউ
+         </div>
+      </div>
+      <div class="text-center mt-4"><button class="btn btn-custom">অর্ডার করতে চাই</button></div>
+      <div class="container mb-3">
+         <div class="contact-section12">
+            <div class="contact-title">প্রয়োজনে ফোন করুন</div>
+            <a href="tel:01619000000" class="contact-btn btn-phone"><i class="fas fa-phone"></i> 01619000000
+            </a><a href="abc" target="_blank" class="contact-btn btn-whatsapp"><i class="fab fa-whatsapp"></i> 01619000000
+            </a><a href="xyz" target="_blank" class="contact-btn btn-messenger"><i class="fab fa-facebook-messenger"></i> Messenger
+            </a>
+         </div>
+      </div>
+   </div>
+</body>

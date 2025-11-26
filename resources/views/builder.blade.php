@@ -62,16 +62,18 @@
          }
 
 .apply-now-global {
-    display: block;
+        display: block;
     width: 100%;
-    padding: 4px 10px;
+    padding: 4px 15px;
     background: #6c5ce7;
     color: #fff;
     border: none;
     cursor: pointer;
     font-weight: bold;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
+    margin-left: 20px;
+    
 }
 
 .apply-now-global {

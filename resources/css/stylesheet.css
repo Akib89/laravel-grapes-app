@@ -1317,18 +1317,18 @@
   box-shadow: none;
 }
 
-.jacket .custom-accordion .accordion-button::after {
+/* .jacket .custom-accordion .accordion-button::after {
   content: "+";
   font-size: 1.2rem;
   color: #d89d00;
   font-weight: bold;
   transition: transform 0.2s;
-}
+} */
 
-.jacket .custom-accordion .accordion-button:not(.collapsed)::after {
+/* .jacket .custom-accordion .accordion-button:not(.collapsed)::after {
   content: "−";
   transform: rotate(180deg);
-}
+} */
 
 .jacket .custom-accordion .accordion-body {
   background-color: #fcfcfc;
@@ -1590,6 +1590,16 @@
     font-size: 1rem;
   }
 }
+/* .jacket .custom-accordion .accordion-button::after {
+  content: "" !important;                    
+  background-image: var(--bs-accordion-btn-icon) !important;
+  transform: none !important;
+} */
+
+/* Arrow when opened */
+/* .jacket .custom-accordion .accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-active-icon) !important;
+} */
 
 ///////////////* juta *////////////////////
 
